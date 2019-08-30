@@ -6,12 +6,10 @@ using UnityEditor;
 public class GenerateStarObjects : EditorWindow {
     [MenuItem("PlanetaliumTools/GenerateStars")]
     static public void Generate() {
-        string path = "Assets/Prefabs/Cube.prefab";
+        string path = "Assets/Prefabs/Stars.prefab";
         var prefab = AssetDatabase.LoadAssetAtPath<GameObject>(path);
 
         StarDataAssets starDatas = Resources.Load<StarDataAssets>("StarDataAsset");
-
-        Debug.Log(starDatas.starDataList[0].hipName) ;
 
         foreach (StarDataAssets.StarData starData in starDatas.starDataList) {
             float hDeg = (360f / 24f) * (starData.ra.x + starData.ra.y / 60f + starData.ra.z / 3600f);
