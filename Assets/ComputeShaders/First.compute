@@ -1,0 +1,31 @@
+﻿#pragma kernel CSParticle
+
+// Particle's data
+struct Particle {
+	float3 position;
+	float3 velocity;
+	float life;
+};
+
+// Particle's data, shared with the shader
+RWStructuredBuffer<Particle> particleBuffer;
+
+float nrand(float2 uv) {
+	return frac(sin(dot(uv, float2(12.9898, 78.233))) * 43758.5453);
+}
+
+uint rng_state;
+
+
+uint rand_xorshift() {
+	// Xorshift algorithm from George Marsaglia's paper
+	rng_state ^= (rng_state << 13);
+	rng_state ^= (rng_state >> 17);
+	rng_state ^= (rng_state << 5);
+	return rng_state;
+}
+
+[numthreads(256, 1, 1)]
+void CSParticle(uint3 id : SV_DispatchThreadID) {
+
+}

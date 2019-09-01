@@ -11,11 +11,6 @@ struct Bullet {
     public Vector3 pos;
 
     /// <summary>
-    /// 速度
-    /// </summary>
-    public Vector3 accel;
-
-    /// <summary>
     /// 色
     /// </summary>
     public Color color;
@@ -23,9 +18,8 @@ struct Bullet {
     /// <summary>
     /// コンストラクタ
     /// </summary>
-    public Bullet(Vector3 pos, Vector3 accel, Color color) {
+    public Bullet(Vector3 pos, Color color) {
         this.pos = pos;
-        this.accel = accel;
         this.color = color;
     }
 }
@@ -91,7 +85,7 @@ public class ManyBullets : MonoBehaviour {
     /// </summary>
     void InitializeComputeBuffer() {
         // 弾数は1万個
-        bulletsBuffer = new ComputeBuffer(10000, Marshal.SizeOf(typeof(Bullet)));
+        bulletsBuffer = new ComputeBuffer(1000, Marshal.SizeOf(typeof(Bullet)));
 
         // 配列に初期値を代入する
         Bullet[] bullets = new Bullet[bulletsBuffer.count];
@@ -99,7 +93,6 @@ public class ManyBullets : MonoBehaviour {
             bullets[i] =
                 new Bullet(
                     new Vector3(Random.Range(-10.0f, 10.0f), Random.Range(-10.0f, 10.0f), Random.Range(-10.0f, 10.0f)),
-                    new Vector3(Random.Range(-1.0f, 1.0f), Random.Range(-1.0f, 1.0f), Random.Range(-1.0f, 1.0f)) * 0.5f,
                     new Color(Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f)));
         }
 
