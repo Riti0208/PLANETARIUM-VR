@@ -30,11 +30,11 @@ public class ConvertToScriptableObject : EditorWindow {
 
                     string[] strLineArr = strLine.Split('|');
 
-                    string[] raArray = strLineArr[2].Split(' ');
+                    string[] raArray = strLineArr[1].Split(' ');
                         
-                    string[] decArray = strLineArr[3].Split(' ');
+                    string[] decArray = strLineArr[2].Split(' ');
 
-                    char spectType = strLineArr[5].Substring(0, 1).ToCharArray()[0];
+                    char spectType = strLineArr[4].Substring(0, 1).ToCharArray()[0];
 
                     Color spectTypeColor = new Color();
                         
@@ -65,16 +65,16 @@ public class ConvertToScriptableObject : EditorWindow {
                             break;
                     }
 
-                    if (strLineArr[4] == "        ") {
-                        strLineArr[4] = "10.0";
+                    if (strLineArr[3] == "        ") {
+                        strLineArr[3] = "10.0";
                     }
 
                     starDataAsset.starDataList.Add(
                         new StarDataAssets.StarData(
-                            strLineArr[1],
+                            int.Parse(strLineArr[5]),
                             new Vector3(float.Parse(raArray[0]), float.Parse(raArray[1]), float.Parse(raArray[2])),
                             new Vector3(float.Parse(decArray[0]), float.Parse(decArray[1]), float.Parse(decArray[2])),
-                            float.Parse(strLineArr[4]),
+                            float.Parse(strLineArr[3]),
                             spectTypeColor,
                             float.Parse(strLineArr[6])
                             )

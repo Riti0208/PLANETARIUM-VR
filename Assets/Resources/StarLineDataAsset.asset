@@ -1,0 +1,3380 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e05735626177c154da2e75eaf954c7e4, type: 3}
+  m_Name: StarLineDataAsset
+  m_EditorClassIdentifier: 
+  starLineDataList:
+  - hDegFirst: 2.0965333
+    sDegFirst: 29.090828
+    hDegSecond: 9.8316555
+    sDegSecond: 30.861225
+    constellationName: And
+  - hDegFirst: 9.8316555
+    sDegFirst: 30.861225
+    hDegSecond: 17.43249
+    sDegSecond: 35.62083
+    constellationName: And
+  - hDegFirst: 30.974663
+    sDegFirst: 42.32985
+    hDegSecond: 17.43249
+    sDegSecond: 35.62083
+    constellationName: And
+  - hDegFirst: 17.43249
+    sDegFirst: 35.62083
+    hDegSecond: 14.187907
+    sDegSecond: 38.499256
+    constellationName: And
+  - hDegFirst: 14.187907
+    sDegFirst: 38.499256
+    hDegSecond: 12.453457
+    sDegSecond: 41.078957
+    constellationName: And
+  - hDegFirst: 156.78815
+    sDegFirst: -31.067802
+    hDegSecond: 149.71808
+    sDegSecond: -35.890934
+    constellationName: Ant
+  - hDegFirst: 221.96553
+    sDegFirst: -79.044716
+    hDegSecond: 248.36444
+    sDegSecond: -78.89696
+    constellationName: Aps
+  - hDegFirst: 248.36444
+    sDegFirst: -78.89696
+    hDegSecond: 250.77258
+    sDegSecond: -77.51657
+    constellationName: Aps
+  - hDegFirst: 298.8282
+    sDegFirst: 6.407933
+    hDegSecond: 297.69452
+    sDegSecond: 8.867385
+    constellationName: Aql
+  - hDegFirst: 297.69452
+    sDegFirst: 8.867385
+    hDegSecond: 296.56488
+    sDegSecond: 10.613269
+    constellationName: Aql
+  - hDegFirst: 297.69452
+    sDegFirst: 8.867385
+    hDegSecond: 291.37396
+    sDegSecond: 3.1145792
+    constellationName: Aql
+  - hDegFirst: 291.37396
+    sDegFirst: 3.1145792
+    hDegSecond: 298.1182
+    sDegSecond: 1.0056783
+    constellationName: Aql
+  - hDegFirst: 302.8261
+    sDegFirst: 0.82147557
+    hDegSecond: 298.1182
+    sDegSecond: 1.0056783
+    constellationName: Aql
+  - hDegFirst: 291.37396
+    sDegFirst: 3.1145792
+    hDegSecond: 286.35254
+    sDegSecond: 13.863709
+    constellationName: Aql
+  - hDegFirst: 286.35254
+    sDegFirst: 13.863709
+    hDegSecond: 284.9058
+    sDegSecond: 15.068478
+    constellationName: Aql
+  - hDegFirst: 291.37396
+    sDegFirst: 3.1145792
+    hDegSecond: 286.5623
+    sDegSecond: -4.882334
+    constellationName: Aql
+  - hDegFirst: 322.88968
+    sDegFirst: -5.571156
+    hDegSecond: 331.44595
+    sDegSecond: 0.31982666
+    constellationName: Aqr
+  - hDegFirst: 331.44595
+    sDegFirst: 0.31982666
+    hDegSecond: 335.41376
+    sDegSecond: -1.3873531
+    constellationName: Aqr
+  - hDegFirst: 335.41376
+    sDegFirst: -1.3873531
+    hDegSecond: 337.2075
+    sDegSecond: 0.020063056
+    constellationName: Aqr
+  - hDegFirst: 337.2075
+    sDegFirst: 0.020063056
+    hDegSecond: 338.83887
+    sDegSecond: 0.11736111
+    constellationName: Aqr
+  - hDegFirst: 338.83887
+    sDegFirst: 0.11736111
+    hDegSecond: 343.1536
+    sDegSecond: -7.579679
+    constellationName: Aqr
+  - hDegFirst: 343.1536
+    sDegFirst: -7.579679
+    hDegSecond: 348.972
+    sDegSecond: -9.087695
+    constellationName: Aqr
+  - hDegFirst: 348.972
+    sDegFirst: -9.087695
+    hDegSecond: 350.74292
+    sDegSecond: -20.100346
+    constellationName: Aqr
+  - hDegFirst: 331.44595
+    sDegFirst: 0.31982666
+    hDegSecond: 334.2082
+    sDegSecond: -7.783237
+    constellationName: Aqr
+  - hDegFirst: 334.2082
+    sDegFirst: -7.783237
+    hDegSecond: 331.6092
+    sDegSecond: -13.86954
+    constellationName: Aqr
+  - hDegFirst: 334.2082
+    sDegFirst: -7.783237
+    hDegSecond: 337.66174
+    sDegSecond: -10.677886
+    constellationName: Aqr
+  - hDegFirst: 337.66174
+    sDegFirst: -10.677886
+    hDegSecond: 342.39795
+    sDegSecond: -13.592538
+    constellationName: Aqr
+  - hDegFirst: 342.39795
+    sDegFirst: -13.592538
+    hDegSecond: 343.66266
+    sDegSecond: -15.82076
+    constellationName: Aqr
+  - hDegFirst: 343.66266
+    sDegFirst: -15.82076
+    hDegSecond: 347.3615
+    sDegSecond: -21.172485
+    constellationName: Aqr
+  - hDegFirst: 311.91888
+    sDegFirst: -9.49569
+    hDegSecond: 322.88968
+    sDegSecond: -5.571156
+    constellationName: Aqr
+  - hDegFirst: 271.65784
+    sDegFirst: -50.091454
+    hDegSecond: 262.9605
+    sDegSecond: -49.87598
+    constellationName: Ara
+  - hDegFirst: 262.9605
+    sDegFirst: -49.87598
+    hDegSecond: 254.65512
+    sDegSecond: -55.990055
+    constellationName: Ara
+  - hDegFirst: 254.65512
+    sDegFirst: -55.990055
+    hDegSecond: 252.4463
+    sDegSecond: -59.041317
+    constellationName: Ara
+  - hDegFirst: 252.4463
+    sDegFirst: -59.041317
+    hDegSecond: 262.7749
+    sDegSecond: -60.683605
+    constellationName: Ara
+  - hDegFirst: 262.7749
+    sDegFirst: -60.683605
+    hDegSecond: 261.34857
+    sDegSecond: -56.37769
+    constellationName: Ara
+  - hDegFirst: 261.34857
+    sDegFirst: -56.37769
+    hDegSecond: 261.32498
+    sDegSecond: -55.529823
+    constellationName: Ara
+  - hDegFirst: 261.32498
+    sDegFirst: -55.529823
+    hDegSecond: 271.65784
+    sDegSecond: -50.091454
+    constellationName: Ara
+  - hDegFirst: 42.49579
+    sDegFirst: 27.26079
+    hDegSecond: 31.792858
+    sDegSecond: 23.462778
+    constellationName: Ari
+  - hDegFirst: 31.792858
+    sDegFirst: 23.462778
+    hDegSecond: 28.659788
+    sDegSecond: 20.8083
+    constellationName: Ari
+  - hDegFirst: 28.659788
+    sDegFirst: 20.8083
+    hDegSecond: 28.382355
+    sDegSecond: 19.294092
+    constellationName: Ari
+  - hDegFirst: 89.93016
+    sDegFirst: 37.212765
+    hDegSecond: 89.88237
+    sDegSecond: 44.947433
+    constellationName: Aur
+  - hDegFirst: 89.88237
+    sDegFirst: 44.947433
+    hDegSecond: 79.172066
+    sDegSecond: 45.99903
+    constellationName: Aur
+  - hDegFirst: 79.172066
+    sDegFirst: 45.99903
+    hDegSecond: 75.6195
+    sDegSecond: 41.07589
+    constellationName: Aur
+  - hDegFirst: 75.6195
+    sDegFirst: 41.07589
+    hDegSecond: 74.2484
+    sDegSecond: 33.166134
+    constellationName: Aur
+  - hDegFirst: 81.57291
+    sDegFirst: 28.607874
+    hDegSecond: 74.2484
+    sDegSecond: 33.166134
+    constellationName: Aur
+  - hDegFirst: 81.57291
+    sDegFirst: 28.607874
+    hDegSecond: 89.93016
+    sDegSecond: 37.212765
+    constellationName: Aur
+  - hDegFirst: 220.28717
+    sDegFirst: 13.728332
+    hDegSecond: 213.91812
+    sDegSecond: 19.18727
+    constellationName: Boo
+  - hDegFirst: 213.91812
+    sDegFirst: 19.18727
+    hDegSecond: 221.24687
+    sDegSecond: 27.074173
+    constellationName: Boo
+  - hDegFirst: 221.24687
+    sDegFirst: 27.074173
+    hDegSecond: 228.87543
+    sDegSecond: 33.3151
+    constellationName: Boo
+  - hDegFirst: 228.87543
+    sDegFirst: 33.3151
+    hDegSecond: 225.48663
+    sDegSecond: 40.390636
+    constellationName: Boo
+  - hDegFirst: 225.48663
+    sDegFirst: 40.390636
+    hDegSecond: 218.01982
+    sDegSecond: 38.307884
+    constellationName: Boo
+  - hDegFirst: 218.01982
+    sDegFirst: 38.307884
+    hDegSecond: 217.95775
+    sDegSecond: 30.371145
+    constellationName: Boo
+  - hDegFirst: 217.95775
+    sDegFirst: 30.371145
+    hDegSecond: 213.91812
+    sDegSecond: 19.18727
+    constellationName: Boo
+  - hDegFirst: 213.91812
+    sDegFirst: 19.18727
+    hDegSecond: 208.67131
+    sDegSecond: 18.398588
+    constellationName: Boo
+  - hDegFirst: 208.67131
+    sDegFirst: 18.398588
+    hDegSecond: 207.36957
+    sDegSecond: 15.797806
+    constellationName: Boo
+  - hDegFirst: 67.70874
+    sDegFirst: -44.953743
+    hDegSecond: 70.14093
+    sDegSecond: -41.86357
+    constellationName: Cae
+  - hDegFirst: 70.14093
+    sDegFirst: -41.86357
+    hDegSecond: 70.51436
+    sDegSecond: -37.144768
+    constellationName: Cae
+  - hDegFirst: 52.267227
+    sDegFirst: 59.940334
+    hDegSecond: 59.35598
+    sDegSecond: 63.07225
+    constellationName: Cam
+  - hDegFirst: 59.35598
+    sDegFirst: 63.07225
+    hDegSecond: 73.51254
+    sDegSecond: 66.34266
+    constellationName: Cam
+  - hDegFirst: 52.267227
+    sDegFirst: 59.940334
+    hDegSecond: 57.58948
+    sDegSecond: 71.33237
+    constellationName: Cam
+  - hDegFirst: 57.58948
+    sDegFirst: 71.33237
+    hDegSecond: 73.51254
+    sDegSecond: 66.34266
+    constellationName: Cam
+  - hDegFirst: 57.58948
+    sDegFirst: 71.33237
+    hDegSecond: 80.64074
+    sDegSecond: 79.23076
+    constellationName: Cam
+  - hDegFirst: 304.5134
+    sDegFirst: -12.544859
+    hDegSecond: 305.2527
+    sDegSecond: -14.781401
+    constellationName: Cap
+  - hDegFirst: 305.2527
+    sDegFirst: -14.781401
+    hDegSecond: 316.48657
+    sDegSecond: -17.23271
+    constellationName: Cap
+  - hDegFirst: 316.48657
+    sDegFirst: -17.23271
+    hDegSecond: 320.56158
+    sDegSecond: -16.834555
+    constellationName: Cap
+  - hDegFirst: 320.56158
+    sDegFirst: -16.834555
+    hDegSecond: 325.02225
+    sDegSecond: -16.662252
+    constellationName: Cap
+  - hDegFirst: 325.02225
+    sDegFirst: -16.662252
+    hDegSecond: 326.75952
+    sDegSecond: -16.126566
+    constellationName: Cap
+  - hDegFirst: 320.56158
+    sDegFirst: -16.834555
+    hDegSecond: 321.66678
+    sDegSecond: -22.411379
+    constellationName: Cap
+  - hDegFirst: 321.66678
+    sDegFirst: -22.411379
+    hDegSecond: 316.48657
+    sDegSecond: -17.23271
+    constellationName: Cap
+  - hDegFirst: 305.2527
+    sDegFirst: -14.781401
+    hDegSecond: 311.52402
+    sDegSecond: -25.270517
+    constellationName: Cap
+  - hDegFirst: 316.48657
+    sDegFirst: -17.23271
+    hDegSecond: 312.9554
+    sDegSecond: -26.919127
+    constellationName: Cap
+  - hDegFirst: 138.30101
+    sDegFirst: -69.717476
+    hDegSecond: 153.4345
+    sDegSecond: -70.03792
+    constellationName: Car
+  - hDegFirst: 153.4345
+    sDegFirst: -70.03792
+    hDegSecond: 160.73927
+    sDegSecond: -64.39448
+    constellationName: Car
+  - hDegFirst: 160.73927
+    sDegFirst: -64.39448
+    hDegSecond: 160.88461
+    sDegSecond: -60.566628
+    constellationName: Car
+  - hDegFirst: 160.88461
+    sDegFirst: -60.566628
+    hDegSecond: 167.14748
+    sDegSecond: -58.97504
+    constellationName: Car
+  - hDegFirst: 167.14748
+    sDegFirst: -58.97504
+    hDegSecond: 163.3732
+    sDegSecond: -58.853264
+    constellationName: Car
+  - hDegFirst: 163.3732
+    sDegFirst: -58.853264
+    hDegSecond: 156.96977
+    sDegSecond: -58.73941
+    constellationName: Car
+  - hDegFirst: 156.96977
+    sDegFirst: -58.73941
+    hDegSecond: 154.27086
+    sDegSecond: -61.33232
+    constellationName: Car
+  - hDegFirst: 154.27086
+    sDegFirst: -61.33232
+    hDegSecond: 139.27261
+    sDegSecond: -59.27526
+    constellationName: Car
+  - hDegFirst: 130.15431
+    sDegFirst: -59.761013
+    hDegSecond: 125.6286
+    sDegSecond: -59.509537
+    constellationName: Car
+  - hDegFirst: 125.6286
+    sDegFirst: -59.509537
+    hDegSecond: 95.98788
+    sDegSecond: -52.695717
+    constellationName: Car
+  - hDegFirst: 137.74211
+    sDegFirst: -58.96693
+    hDegSecond: 139.27261
+    sDegSecond: -59.27526
+    constellationName: Car
+  - hDegFirst: 137.74211
+    sDegFirst: -58.96693
+    hDegSecond: 130.15431
+    sDegSecond: -59.761013
+    constellationName: Car
+  - hDegFirst: 95.98788
+    sDegFirst: -52.695717
+    hDegSecond: 99.4403
+    sDegSecond: -43.195923
+    constellationName: Car
+  - hDegFirst: 125.6286
+    sDegFirst: -59.509537
+    hDegSecond: 120.896126
+    sDegSecond: -40.00319
+    constellationName: Car
+  - hDegFirst: 28.59868
+    sDegFirst: 63.670147
+    hDegSecond: 21.452513
+    sDegSecond: 60.235405
+    constellationName: Cas
+  - hDegFirst: 21.452513
+    sDegFirst: 60.235405
+    hDegSecond: 14.177088
+    sDegSecond: 60.71675
+    constellationName: Cas
+  - hDegFirst: 14.177088
+    sDegFirst: 60.71675
+    hDegSecond: 10.126614
+    sDegSecond: 56.53741
+    constellationName: Cas
+  - hDegFirst: 10.126614
+    sDegFirst: 56.53741
+    hDegSecond: 2.2920403
+    sDegSecond: 59.15022
+    constellationName: Cas
+  - hDegFirst: 219.92041
+    sDegFirst: -60.835148
+    hDegSecond: 210.95602
+    sDegSecond: -60.37298
+    constellationName: Cen
+  - hDegFirst: 210.95602
+    sDegFirst: -60.37298
+    hDegSecond: 204.97197
+    sDegSecond: -53.466362
+    constellationName: Cen
+  - hDegFirst: 204.97197
+    sDegFirst: -53.466362
+    hDegSecond: 208.88515
+    sDegSecond: -47.288265
+    constellationName: Cen
+  - hDegFirst: 208.88515
+    sDegFirst: -47.288265
+    hDegSecond: 209.66988
+    sDegSecond: -44.80353
+    constellationName: Cen
+  - hDegFirst: 209.66988
+    sDegFirst: -44.80353
+    hDegSecond: 207.4042
+    sDegSecond: -42.473686
+    constellationName: Cen
+  - hDegFirst: 207.4042
+    sDegFirst: -42.473686
+    hDegSecond: 207.37624
+    sDegSecond: -41.68766
+    constellationName: Cen
+  - hDegFirst: 207.37624
+    sDegFirst: -41.68766
+    hDegSecond: 202.76112
+    sDegSecond: -39.40728
+    constellationName: Cen
+  - hDegFirst: 202.76112
+    sDegFirst: -39.40728
+    hDegSecond: 200.15027
+    sDegSecond: -36.712082
+    constellationName: Cen
+  - hDegFirst: 207.37624
+    sDegFirst: -41.68766
+    hDegSecond: 211.67218
+    sDegSecond: -36.368694
+    constellationName: Cen
+  - hDegFirst: 207.4042
+    sDegFirst: -42.473686
+    hDegSecond: 218.87688
+    sDegSecond: -42.157745
+    constellationName: Cen
+  - hDegFirst: 218.87688
+    sDegFirst: -42.157745
+    hDegSecond: 224.7904
+    sDegSecond: -42.10414
+    constellationName: Cen
+  - hDegFirst: 208.88515
+    sDegFirst: -47.288265
+    hDegSecond: 190.38002
+    sDegSecond: -48.959885
+    constellationName: Cen
+  - hDegFirst: 190.38002
+    sDegFirst: -48.959885
+    hDegSecond: 187.01006
+    sDegSecond: -50.230606
+    constellationName: Cen
+  - hDegFirst: 187.01006
+    sDegFirst: -50.230606
+    hDegSecond: 182.08977
+    sDegSecond: -50.72241
+    constellationName: Cen
+  - hDegFirst: 182.08977
+    sDegFirst: -50.72241
+    hDegSecond: 173.69046
+    sDegSecond: -54.264133
+    constellationName: Cen
+  - hDegFirst: 173.69046
+    sDegFirst: -54.264133
+    hDegSecond: 173.94554
+    sDegSecond: -63.019825
+    constellationName: Cen
+  - hDegFirst: 332.7136
+    sDegFirst: 58.20125
+    hDegSecond: 342.42047
+    sDegSecond: 66.200714
+    constellationName: Cep
+  - hDegFirst: 342.42047
+    sDegFirst: 66.200714
+    hDegSecond: 322.1649
+    sDegSecond: 70.56069
+    constellationName: Cep
+  - hDegFirst: 322.1649
+    sDegFirst: 70.56069
+    hDegSecond: 319.6441
+    sDegSecond: 62.585457
+    constellationName: Cep
+  - hDegFirst: 319.6441
+    sDegFirst: 62.585457
+    hDegSecond: 332.7136
+    sDegSecond: 58.20125
+    constellationName: Cep
+  - hDegFirst: 342.42047
+    sDegFirst: 66.200714
+    hDegSecond: 354.83743
+    sDegSecond: 77.631966
+    constellationName: Cep
+  - hDegFirst: 354.83743
+    sDegFirst: 77.631966
+    hDegSecond: 322.1649
+    sDegSecond: 70.56069
+    constellationName: Cep
+  - hDegFirst: 33.250046
+    sDegFirst: 8.846752
+    hDegSecond: 37.039658
+    sDegSecond: 8.460089
+    constellationName: Cet
+  - hDegFirst: 26.021364
+    sDegFirst: -15.939556
+    hDegSecond: 10.896785
+    sDegSecond: -17.986685
+    constellationName: Cet
+  - hDegFirst: 10.896785
+    sDegFirst: -17.986685
+    hDegSecond: 4.8570123
+    sDegSecond: -8.82383
+    constellationName: Cet
+  - hDegFirst: 10.896785
+    sDegFirst: -17.986685
+    hDegSecond: 17.146933
+    sDegSecond: -10.181928
+    constellationName: Cet
+  - hDegFirst: 17.146933
+    sDegFirst: -10.181928
+    hDegSecond: 21.006046
+    sDegSecond: -8.182754
+    constellationName: Cet
+  - hDegFirst: 21.006046
+    sDegFirst: -8.182754
+    hDegSecond: 27.865044
+    sDegSecond: -10.334946
+    constellationName: Cet
+  - hDegFirst: 27.865044
+    sDegFirst: -10.334946
+    hDegSecond: 36.487553
+    sDegSecond: -12.290452
+    constellationName: Cet
+  - hDegFirst: 36.487553
+    sDegFirst: -12.290452
+    hDegSecond: 39.89055
+    sDegSecond: -11.871582
+    constellationName: Cet
+  - hDegFirst: 39.89055
+    sDegFirst: -11.871582
+    hDegSecond: 41.030643
+    sDegSecond: -13.858676
+    constellationName: Cet
+  - hDegFirst: 41.030643
+    sDegFirst: -13.858676
+    hDegSecond: 38.021988
+    sDegSecond: -15.24432
+    constellationName: Cet
+  - hDegFirst: 38.021988
+    sDegFirst: -15.24432
+    hDegSecond: 26.021364
+    sDegSecond: -15.939556
+    constellationName: Cet
+  - hDegFirst: 34.836613
+    sDegFirst: -2.9770606
+    hDegSecond: 39.89055
+    sDegSecond: -11.871582
+    constellationName: Cet
+  - hDegFirst: 34.836613
+    sDegFirst: -2.9770606
+    hDegSecond: 39.870617
+    sDegSecond: 0.32851666
+    constellationName: Cet
+  - hDegFirst: 39.870617
+    sDegFirst: 0.32851666
+    hDegSecond: 40.82552
+    sDegSecond: 3.2361717
+    constellationName: Cet
+  - hDegFirst: 40.82552
+    sDegFirst: 3.2361717
+    hDegSecond: 45.569912
+    sDegSecond: 4.0899253
+    constellationName: Cet
+  - hDegFirst: 45.569912
+    sDegFirst: 4.0899253
+    hDegSecond: 44.928734
+    sDegSecond: 8.907401
+    constellationName: Cet
+  - hDegFirst: 44.928734
+    sDegFirst: 8.907401
+    hDegSecond: 41.23489
+    sDegSecond: 10.11422
+    constellationName: Cet
+  - hDegFirst: 41.23489
+    sDegFirst: 10.11422
+    hDegSecond: 37.039658
+    sDegSecond: 8.460089
+    constellationName: Cet
+  - hDegFirst: 37.039658
+    sDegFirst: 8.460089
+    hDegSecond: 38.968704
+    sDegSecond: 5.593302
+    constellationName: Cet
+  - hDegFirst: 38.968704
+    sDegFirst: 5.593302
+    hDegSecond: 40.82552
+    sDegSecond: 3.2361717
+    constellationName: Cet
+  - hDegFirst: 124.63028
+    sDegFirst: -76.91998
+    hDegSecond: 158.86758
+    sDegSecond: -78.60781
+    constellationName: Cha
+  - hDegFirst: 158.86758
+    sDegFirst: -78.60781
+    hDegSecond: 184.58727
+    sDegSecond: -79.31227
+    constellationName: Cha
+  - hDegFirst: 220.62785
+    sDegFirst: -64.97457
+    hDegSecond: 230.8444
+    sDegSecond: -59.320698
+    constellationName: Cir
+  - hDegFirst: 220.62785
+    sDegFirst: -64.97457
+    hDegSecond: 229.379
+    sDegSecond: -58.80088
+    constellationName: Cir
+  - hDegFirst: 103.54784
+    sDegFirst: -12.038592
+    hDegSecond: 105.93955
+    sDegSecond: -15.633259
+    constellationName: CMa
+  - hDegFirst: 105.93955
+    sDegFirst: -15.633259
+    hDegSecond: 104.03428
+    sDegSecond: -17.054247
+    constellationName: CMa
+  - hDegFirst: 104.03428
+    sDegFirst: -17.054247
+    hDegSecond: 101.28854
+    sDegSecond: -16.713142
+    constellationName: CMa
+  - hDegFirst: 101.28854
+    sDegFirst: -16.713142
+    hDegSecond: 105.75614
+    sDegSecond: -23.833302
+    constellationName: CMa
+  - hDegFirst: 105.75614
+    sDegFirst: -23.833302
+    hDegSecond: 107.097855
+    sDegSecond: -26.393208
+    constellationName: CMa
+  - hDegFirst: 107.097855
+    sDegFirst: -26.393208
+    hDegSecond: 108.70276
+    sDegSecond: -26.772686
+    constellationName: CMa
+  - hDegFirst: 108.70276
+    sDegFirst: -26.772686
+    hDegSecond: 111.02377
+    sDegSecond: -29.30312
+    constellationName: CMa
+  - hDegFirst: 104.65645
+    sDegFirst: -28.97209
+    hDegSecond: 105.4298
+    sDegSecond: -27.934841
+    constellationName: CMa
+  - hDegFirst: 105.4298
+    sDegFirst: -27.934841
+    hDegSecond: 107.097855
+    sDegSecond: -26.393208
+    constellationName: CMa
+  - hDegFirst: 105.4298
+    sDegFirst: -27.934841
+    hDegSecond: 103.55436
+    sDegSecond: -23.928349
+    constellationName: CMa
+  - hDegFirst: 103.55436
+    sDegFirst: -23.928349
+    hDegSecond: 99.17083
+    sDegSecond: -19.255709
+    constellationName: CMa
+  - hDegFirst: 99.17083
+    sDegFirst: -19.255709
+    hDegSecond: 98.764084
+    sDegSecond: -22.964832
+    constellationName: CMa
+  - hDegFirst: 99.17083
+    sDegFirst: -19.255709
+    hDegSecond: 95.67495
+    sDegSecond: -17.955917
+    constellationName: CMa
+  - hDegFirst: 99.17083
+    sDegFirst: -19.255709
+    hDegSecond: 101.28854
+    sDegSecond: -16.713142
+    constellationName: CMa
+  - hDegFirst: 104.65645
+    sDegFirst: -28.97209
+    hDegSecond: 102.46027
+    sDegSecond: -32.508488
+    constellationName: CMa
+  - hDegFirst: 95.07828
+    sDegFirst: -30.063377
+    hDegSecond: 104.65645
+    sDegSecond: -28.97209
+    constellationName: CMa
+  - hDegFirst: 104.03428
+    sDegFirst: -17.054247
+    hDegSecond: 103.54784
+    sDegSecond: -12.038592
+    constellationName: CMa
+  - hDegFirst: 114.82724
+    sDegFirst: 5.2275076
+    hDegSecond: 111.7878
+    sDegSecond: 8.289409
+    constellationName: CMi
+  - hDegFirst: 131.67432
+    sDegFirst: 28.760006
+    hDegSecond: 130.82172
+    sDegSecond: 21.468596
+    constellationName: Cnc
+  - hDegFirst: 130.82172
+    sDegFirst: 21.468596
+    hDegSecond: 125.016136
+    sDegSecond: 27.218622
+    constellationName: Cnc
+  - hDegFirst: 130.82172
+    sDegFirst: 21.468596
+    hDegSecond: 131.1713
+    sDegSecond: 18.154863
+    constellationName: Cnc
+  - hDegFirst: 131.1713
+    sDegFirst: 18.154863
+    hDegSecond: 124.12895
+    sDegSecond: 9.185663
+    constellationName: Cnc
+  - hDegFirst: 131.1713
+    sDegFirst: 18.154863
+    hDegSecond: 134.62166
+    sDegSecond: 11.857772
+    constellationName: Cnc
+  - hDegFirst: 95.52852
+    sDegFirst: -33.43627
+    hDegSecond: 94.13806
+    sDegSecond: -35.14073
+    constellationName: Col
+  - hDegFirst: 94.13806
+    sDegFirst: -35.14073
+    hDegSecond: 89.38422
+    sDegSecond: -35.283306
+    constellationName: Col
+  - hDegFirst: 89.38422
+    sDegFirst: -35.283306
+    hDegSecond: 87.73981
+    sDegSecond: -35.76929
+    constellationName: Col
+  - hDegFirst: 87.73981
+    sDegFirst: -35.76929
+    hDegSecond: 89.78663
+    sDegSecond: -42.81511
+    constellationName: Col
+  - hDegFirst: 87.73981
+    sDegFirst: -35.76929
+    hDegSecond: 84.91225
+    sDegSecond: -34.07405
+    constellationName: Col
+  - hDegFirst: 84.91225
+    sDegFirst: -34.07405
+    hDegSecond: 82.80306
+    sDegSecond: -35.470436
+    constellationName: Col
+  - hDegFirst: 197.49812
+    sDegFirst: 17.529116
+    hDegSecond: 197.9705
+    sDegSecond: 27.876038
+    constellationName: Com
+  - hDegFirst: 197.9705
+    sDegFirst: 27.876038
+    hDegSecond: 186.7347
+    sDegSecond: 28.26862
+    constellationName: Com
+  - hDegFirst: 280.9456
+    sDegFirst: -38.32331
+    hDegSecond: 284.1687
+    sDegSecond: -37.34318
+    constellationName: CrA
+  - hDegFirst: 284.1687
+    sDegFirst: -37.34318
+    hDegSecond: 284.68115
+    sDegSecond: -37.10709
+    constellationName: CrA
+  - hDegFirst: 284.68115
+    sDegFirst: -37.10709
+    hDegSecond: 286.60434
+    sDegSecond: -37.062756
+    constellationName: CrA
+  - hDegFirst: 286.60434
+    sDegFirst: -37.062756
+    hDegSecond: 287.36783
+    sDegSecond: -37.90424
+    constellationName: CrA
+  - hDegFirst: 287.36783
+    sDegFirst: -37.90424
+    hDegSecond: 287.5073
+    sDegSecond: -39.340706
+    constellationName: CrA
+  - hDegFirst: 287.5073
+    sDegFirst: -39.340706
+    hDegSecond: 287.08722
+    sDegSecond: -40.49664
+    constellationName: CrA
+  - hDegFirst: 287.08722
+    sDegFirst: -40.49664
+    hDegSecond: 285.77847
+    sDegSecond: -42.094994
+    constellationName: CrA
+  - hDegFirst: 285.77847
+    sDegFirst: -42.094994
+    hDegSecond: 284.0707
+    sDegSecond: -42.7106
+    constellationName: CrA
+  - hDegFirst: 280.9456
+    sDegFirst: -38.32331
+    hDegSecond: 278.08878
+    sDegSecond: -39.70391
+    constellationName: CrA
+  - hDegFirst: 233.23248
+    sDegFirst: 31.359156
+    hDegSecond: 231.95772
+    sDegSecond: 29.105492
+    constellationName: CrB
+  - hDegFirst: 231.95772
+    sDegFirst: 29.105492
+    hDegSecond: 233.67162
+    sDegSecond: 26.71491
+    constellationName: CrB
+  - hDegFirst: 233.67162
+    sDegFirst: 26.71491
+    hDegSecond: 235.68599
+    sDegSecond: 26.295515
+    constellationName: CrB
+  - hDegFirst: 235.68599
+    sDegFirst: 26.295515
+    hDegSecond: 237.39874
+    sDegSecond: 26.06855
+    constellationName: CrB
+  - hDegFirst: 237.39874
+    sDegFirst: 26.06855
+    hDegSecond: 239.3971
+    sDegSecond: 26.878027
+    constellationName: CrB
+  - hDegFirst: 239.3971
+    sDegFirst: 26.878027
+    hDegSecond: 240.3608
+    sDegSecond: 29.851078
+    constellationName: CrB
+  - hDegFirst: 164.9448
+    sDegFirst: -18.299097
+    hDegSecond: 167.91452
+    sDegSecond: -22.825607
+    constellationName: Crt
+  - hDegFirst: 167.91452
+    sDegFirst: -22.825607
+    hDegSecond: 171.22076
+    sDegSecond: -17.684017
+    constellationName: Crt
+  - hDegFirst: 171.22076
+    sDegFirst: -17.684017
+    hDegSecond: 169.83551
+    sDegSecond: -14.779043
+    constellationName: Crt
+  - hDegFirst: 169.83551
+    sDegFirst: -14.779043
+    hDegSecond: 164.9448
+    sDegSecond: -18.299097
+    constellationName: Crt
+  - hDegFirst: 169.83551
+    sDegFirst: -14.779043
+    hDegSecond: 171.15253
+    sDegSecond: -10.859383
+    constellationName: Crt
+  - hDegFirst: 171.15253
+    sDegFirst: -10.859383
+    hDegSecond: 174.17062
+    sDegSecond: -9.802254
+    constellationName: Crt
+  - hDegFirst: 174.17062
+    sDegFirst: -9.802254
+    hDegSecond: 179.0041
+    sDegSecond: -17.150808
+    constellationName: Crt
+  - hDegFirst: 179.0041
+    sDegFirst: -17.150808
+    hDegSecond: 176.19066
+    sDegSecond: -18.350615
+    constellationName: Crt
+  - hDegFirst: 176.19066
+    sDegFirst: -18.350615
+    hDegSecond: 171.22076
+    sDegSecond: -17.684017
+    constellationName: Crt
+  - hDegFirst: 187.79137
+    sDegFirst: -57.112568
+    hDegSecond: 186.64975
+    sDegSecond: -63.099056
+    constellationName: Cru
+  - hDegFirst: 191.9305
+    sDegFirst: -59.688732
+    hDegSecond: 183.78648
+    sDegSecond: -58.7489
+    constellationName: Cru
+  - hDegFirst: 188.01869
+    sDegFirst: -16.195866
+    hDegSecond: 187.4666
+    sDegSecond: -16.515095
+    constellationName: Crv
+  - hDegFirst: 187.4666
+    sDegFirst: -16.515095
+    hDegSecond: 183.95195
+    sDegSecond: -17.541985
+    constellationName: Crv
+  - hDegFirst: 183.95195
+    sDegFirst: -17.541985
+    hDegSecond: 182.53136
+    sDegSecond: -22.619793
+    constellationName: Crv
+  - hDegFirst: 182.53136
+    sDegFirst: -22.619793
+    hDegSecond: 182.10313
+    sDegSecond: -24.72878
+    constellationName: Crv
+  - hDegFirst: 182.53136
+    sDegFirst: -22.619793
+    hDegSecond: 188.5968
+    sDegSecond: -23.396624
+    constellationName: Crv
+  - hDegFirst: 188.5968
+    sDegFirst: -23.396624
+    hDegSecond: 187.4666
+    sDegSecond: -16.515095
+    constellationName: Crv
+  - hDegFirst: 188.43788
+    sDegFirst: 41.35677
+    hDegSecond: 194.00768
+    sDegSecond: 38.318245
+    constellationName: CVn
+  - hDegFirst: 289.27545
+    sDegFirst: 53.36816
+    hDegSecond: 292.42642
+    sDegSecond: 51.72947
+    constellationName: Cyg
+  - hDegFirst: 292.42642
+    sDegFirst: 51.72947
+    hDegSecond: 296.2435
+    sDegSecond: 45.13069
+    constellationName: Cyg
+  - hDegFirst: 296.2435
+    sDegFirst: 45.13069
+    hDegSecond: 305.5571
+    sDegSecond: 40.25668
+    constellationName: Cyg
+  - hDegFirst: 305.5571
+    sDegFirst: 40.25668
+    hDegSecond: 310.35797
+    sDegSecond: 45.280334
+    constellationName: Cyg
+  - hDegFirst: 305.5571
+    sDegFirst: 40.25668
+    hDegSecond: 311.5518
+    sDegSecond: 33.96945
+    constellationName: Cyg
+  - hDegFirst: 311.5518
+    sDegFirst: 33.96945
+    hDegSecond: 318.2341
+    sDegSecond: 30.227081
+    constellationName: Cyg
+  - hDegFirst: 318.2341
+    sDegFirst: 30.227081
+    hDegSecond: 326.035
+    sDegSecond: 28.743221
+    constellationName: Cyg
+  - hDegFirst: 305.5571
+    sDegFirst: 40.25668
+    hDegSecond: 299.07666
+    sDegSecond: 35.083492
+    constellationName: Cyg
+  - hDegFirst: 299.07666
+    sDegFirst: 35.083492
+    hDegSecond: 292.68036
+    sDegSecond: 27.959694
+    constellationName: Cyg
+  - hDegFirst: 308.3032
+    sDegFirst: 11.303332
+    hDegSecond: 309.38696
+    sDegSecond: 14.595202
+    constellationName: Del
+  - hDegFirst: 309.38696
+    sDegFirst: 14.595202
+    hDegSecond: 309.9094
+    sDegSecond: 15.912053
+    constellationName: Del
+  - hDegFirst: 309.9094
+    sDegFirst: 15.912053
+    hDegSecond: 311.66467
+    sDegSecond: 16.124773
+    constellationName: Del
+  - hDegFirst: 311.66467
+    sDegFirst: 16.124773
+    hDegSecond: 310.86478
+    sDegSecond: 15.074682
+    constellationName: Del
+  - hDegFirst: 310.86478
+    sDegFirst: 15.074682
+    hDegSecond: 309.38696
+    sDegSecond: 14.595202
+    constellationName: Del
+  - hDegFirst: 86.19341
+    sDegFirst: -65.73554
+    hDegSecond: 88.52458
+    sDegSecond: -63.091022
+    constellationName: Dor
+  - hDegFirst: 88.52458
+    sDegFirst: -63.091022
+    hDegSecond: 83.40632
+    sDegSecond: -62.489857
+    constellationName: Dor
+  - hDegFirst: 83.40632
+    sDegFirst: -62.489857
+    hDegSecond: 86.19341
+    sDegSecond: -65.73554
+    constellationName: Dor
+  - hDegFirst: 83.40632
+    sDegFirst: -62.489857
+    hDegSecond: 68.498825
+    sDegSecond: -55.045006
+    constellationName: Dor
+  - hDegFirst: 68.498825
+    sDegFirst: -55.045006
+    hDegSecond: 64.00622
+    sDegSecond: -51.487095
+    constellationName: Dor
+  - hDegFirst: 268.38177
+    sDegFirst: 56.87245
+    hDegSecond: 269.15158
+    sDegSecond: 51.488953
+    constellationName: Dra
+  - hDegFirst: 269.15158
+    sDegFirst: 51.488953
+    hDegSecond: 262.60825
+    sDegSecond: 52.301357
+    constellationName: Dra
+  - hDegFirst: 262.60825
+    sDegFirst: 52.301357
+    hDegSecond: 263.06616
+    sDegSecond: 55.172806
+    constellationName: Dra
+  - hDegFirst: 263.06616
+    sDegFirst: 55.172806
+    hDegSecond: 268.38177
+    sDegSecond: 56.87245
+    constellationName: Dra
+  - hDegFirst: 268.38177
+    sDegFirst: 56.87245
+    hDegSecond: 288.13815
+    sDegSecond: 67.661316
+    constellationName: Dra
+  - hDegFirst: 288.13815
+    sDegFirst: 67.661316
+    hDegSecond: 297.04254
+    sDegSecond: 70.26784
+    constellationName: Dra
+  - hDegFirst: 297.04254
+    sDegFirst: 70.26784
+    hDegSecond: 275.25974
+    sDegSecond: 72.733696
+    constellationName: Dra
+  - hDegFirst: 275.25974
+    sDegFirst: 72.733696
+    hDegSecond: 257.19678
+    sDegSecond: 65.71464
+    constellationName: Dra
+  - hDegFirst: 257.19678
+    sDegFirst: 65.71464
+    hDegSecond: 245.99794
+    sDegSecond: 61.514076
+    constellationName: Dra
+  - hDegFirst: 245.99794
+    sDegFirst: 61.514076
+    hDegSecond: 240.47377
+    sDegSecond: 58.564438
+    constellationName: Dra
+  - hDegFirst: 240.47377
+    sDegFirst: 58.564438
+    hDegSecond: 231.23244
+    sDegSecond: 58.966022
+    constellationName: Dra
+  - hDegFirst: 231.23244
+    sDegFirst: 58.966022
+    hDegSecond: 211.09761
+    sDegSecond: 64.37581
+    constellationName: Dra
+  - hDegFirst: 211.09761
+    sDegFirst: 64.37581
+    hDegSecond: 188.37102
+    sDegSecond: 69.78821
+    constellationName: Dra
+  - hDegFirst: 188.37102
+    sDegFirst: 69.78821
+    hDegSecond: 172.8512
+    sDegSecond: 69.33112
+    constellationName: Dra
+  - hDegFirst: 317.5853
+    sDegFirst: 10.131948
+    hDegSecond: 318.61996
+    sDegSecond: 10.007719
+    constellationName: Equ
+  - hDegFirst: 318.61996
+    sDegFirst: 10.007719
+    hDegSecond: 320.72327
+    sDegSecond: 6.8111134
+    constellationName: Equ
+  - hDegFirst: 320.72327
+    sDegFirst: 6.8111134
+    hDegSecond: 318.9558
+    sDegSecond: 5.248074
+    constellationName: Equ
+  - hDegFirst: 318.9558
+    sDegFirst: 5.248074
+    hDegSecond: 317.5853
+    sDegSecond: 10.131948
+    constellationName: Equ
+  - hDegFirst: 24.428133
+    sDegFirst: -57.23666
+    hDegSecond: 28.986801
+    sDegSecond: -51.609585
+    constellationName: Eri
+  - hDegFirst: 28.986801
+    sDegFirst: -51.609585
+    hDegSecond: 34.127083
+    sDegSecond: -51.51211
+    constellationName: Eri
+  - hDegFirst: 34.127083
+    sDegFirst: -51.51211
+    hDegSecond: 36.74627
+    sDegSecond: -47.703827
+    constellationName: Eri
+  - hDegFirst: 36.74627
+    sDegFirst: -47.703827
+    hDegSecond: 39.949665
+    sDegSecond: -42.891632
+    constellationName: Eri
+  - hDegFirst: 39.949665
+    sDegFirst: -42.891632
+    hDegSecond: 40.16638
+    sDegSecond: -39.85531
+    constellationName: Eri
+  - hDegFirst: 40.16638
+    sDegFirst: -39.85531
+    hDegSecond: 44.565483
+    sDegSecond: -40.304733
+    constellationName: Eri
+  - hDegFirst: 44.565483
+    sDegFirst: -40.304733
+    hDegSecond: 49.97177
+    sDegSecond: -43.07155
+    constellationName: Eri
+  - hDegFirst: 49.97177
+    sDegFirst: -43.07155
+    hDegSecond: 57.14926
+    sDegSecond: -37.62013
+    constellationName: Eri
+  - hDegFirst: 57.14926
+    sDegFirst: -37.62013
+    hDegSecond: 57.36367
+    sDegSecond: -36.20011
+    constellationName: Eri
+  - hDegFirst: 57.36367
+    sDegFirst: -36.20011
+    hDegSecond: 64.47341
+    sDegSecond: -33.798332
+    constellationName: Eri
+  - hDegFirst: 64.47341
+    sDegFirst: -33.798332
+    hDegSecond: 66.009026
+    sDegSecond: -34.016987
+    constellationName: Eri
+  - hDegFirst: 66.009026
+    sDegFirst: -34.016987
+    hDegSecond: 68.8878
+    sDegSecond: -30.562311
+    constellationName: Eri
+  - hDegFirst: 68.8878
+    sDegFirst: -30.562311
+    hDegSecond: 56.712456
+    sDegSecond: -23.248438
+    constellationName: Eri
+  - hDegFirst: 56.712456
+    sDegFirst: -23.248438
+    hDegSecond: 53.446865
+    sDegSecond: -21.632816
+    constellationName: Eri
+  - hDegFirst: 53.446865
+    sDegFirst: -21.632816
+    hDegSecond: 49.87904
+    sDegSecond: -21.757942
+    constellationName: Eri
+  - hDegFirst: 49.87904
+    sDegFirst: -21.757942
+    hDegSecond: 45.598305
+    sDegSecond: -23.624336
+    constellationName: Eri
+  - hDegFirst: 45.598305
+    sDegFirst: -23.624336
+    hDegSecond: 41.27492
+    sDegSecond: -18.57265
+    constellationName: Eri
+  - hDegFirst: 41.27492
+    sDegFirst: -18.57265
+    hDegSecond: 44.10668
+    sDegSecond: -8.89761
+    constellationName: Eri
+  - hDegFirst: 44.10668
+    sDegFirst: -8.89761
+    hDegSecond: 48.958447
+    sDegSecond: -8.81984
+    constellationName: Eri
+  - hDegFirst: 48.958447
+    sDegFirst: -8.81984
+    hDegSecond: 53.23509
+    sDegSecond: -9.458305
+    constellationName: Eri
+  - hDegFirst: 53.23509
+    sDegFirst: -9.458305
+    hDegSecond: 55.812317
+    sDegSecond: -9.765199
+    constellationName: Eri
+  - hDegFirst: 55.812317
+    sDegFirst: -9.765199
+    hDegSecond: 69.07975
+    sDegSecond: -3.352448
+    constellationName: Eri
+  - hDegFirst: 69.07975
+    sDegFirst: -3.352448
+    hDegSecond: 71.37559
+    sDegSecond: -3.2546246
+    constellationName: Eri
+  - hDegFirst: 71.37559
+    sDegFirst: -3.2546246
+    hDegSecond: 73.22367
+    sDegSecond: -5.452756
+    constellationName: Eri
+  - hDegFirst: 73.22367
+    sDegFirst: -5.452756
+    hDegSecond: 76.96264
+    sDegSecond: -5.0862627
+    constellationName: Eri
+  - hDegFirst: 76.96264
+    sDegFirst: -5.0862627
+    hDegSecond: 77.2866
+    sDegSecond: -8.754076
+    constellationName: Eri
+  - hDegFirst: 77.2866
+    sDegFirst: -8.754076
+    hDegSecond: 69.545296
+    sDegSecond: -14.303587
+    constellationName: Eri
+  - hDegFirst: 42.27233
+    sDegFirst: -32.406284
+    hDegSecond: 48.017834
+    sDegSecond: -28.989105
+    constellationName: For
+  - hDegFirst: 99.427925
+    sDegFirst: 16.399414
+    hDegSecond: 106.02723
+    sDegSecond: 20.5703
+    constellationName: Gem
+  - hDegFirst: 106.02723
+    sDegFirst: 20.5703
+    hDegSecond: 110.03079
+    sDegSecond: 21.98234
+    constellationName: Gem
+  - hDegFirst: 110.03079
+    sDegFirst: 21.98234
+    hDegSecond: 109.52336
+    sDegSecond: 16.540476
+    constellationName: Gem
+  - hDegFirst: 109.52336
+    sDegFirst: 16.540476
+    hDegSecond: 101.32264
+    sDegSecond: 12.896055
+    constellationName: Gem
+  - hDegFirst: 110.03079
+    sDegFirst: 21.98234
+    hDegSecond: 113.98072
+    sDegSecond: 26.896004
+    constellationName: Gem
+  - hDegFirst: 113.98072
+    sDegFirst: 26.896004
+    hDegSecond: 116.11195
+    sDegSecond: 24.398129
+    constellationName: Gem
+  - hDegFirst: 113.98072
+    sDegFirst: 26.896004
+    hDegSecond: 116.33068
+    sDegSecond: 28.02631
+    constellationName: Gem
+  - hDegFirst: 113.98072
+    sDegFirst: 26.896004
+    hDegSecond: 111.431984
+    sDegSecond: 27.798286
+    constellationName: Gem
+  - hDegFirst: 111.431984
+    sDegFirst: 27.798286
+    hDegSecond: 107.784966
+    sDegSecond: 30.245281
+    constellationName: Gem
+  - hDegFirst: 107.784966
+    sDegFirst: 30.245281
+    hDegSecond: 113.65002
+    sDegSecond: 31.888636
+    constellationName: Gem
+  - hDegFirst: 107.784966
+    sDegFirst: 30.245281
+    hDegSecond: 103.19725
+    sDegSecond: 33.96137
+    constellationName: Gem
+  - hDegFirst: 107.784966
+    sDegFirst: 30.245281
+    hDegSecond: 100.98304
+    sDegSecond: 25.131155
+    constellationName: Gem
+  - hDegFirst: 100.98304
+    sDegFirst: 25.131155
+    hDegSecond: 97.24079
+    sDegSecond: 20.212168
+    constellationName: Gem
+  - hDegFirst: 100.98304
+    sDegFirst: 25.131155
+    hDegSecond: 95.73996
+    sDegSecond: 22.513851
+    constellationName: Gem
+  - hDegFirst: 95.73996
+    sDegFirst: 22.513851
+    hDegSecond: 93.71957
+    sDegSecond: 22.506824
+    constellationName: Gem
+  - hDegFirst: 93.71957
+    sDegFirst: 22.506824
+    hDegSecond: 91.03007
+    sDegSecond: 23.263632
+    constellationName: Gem
+  - hDegFirst: 346.71988
+    sDegFirst: -43.520325
+    hDegSecond: 337.31732
+    sDegSecond: -43.495556
+    constellationName: Gru
+  - hDegFirst: 337.31732
+    sDegFirst: -43.495556
+    hDegSecond: 332.05783
+    sDegSecond: -46.960617
+    constellationName: Gru
+  - hDegFirst: 332.05783
+    sDegFirst: -46.960617
+    hDegSecond: 340.66638
+    sDegSecond: -46.884567
+    constellationName: Gru
+  - hDegFirst: 340.66638
+    sDegFirst: -46.884567
+    hDegSecond: 347.5893
+    sDegSecond: -45.246647
+    constellationName: Gru
+  - hDegFirst: 347.5893
+    sDegFirst: -45.246647
+    hDegSecond: 346.71988
+    sDegSecond: -43.520325
+    constellationName: Gru
+  - hDegFirst: 340.66638
+    sDegFirst: -46.884567
+    hDegSecond: 345.2203
+    sDegSecond: -52.754105
+    constellationName: Gru
+  - hDegFirst: 340.66638
+    sDegFirst: -46.884567
+    hDegSecond: 342.13834
+    sDegSecond: -51.316704
+    constellationName: Gru
+  - hDegFirst: 332.05783
+    sDegFirst: -46.960617
+    hDegSecond: 331.52878
+    sDegSecond: -39.54305
+    constellationName: Gru
+  - hDegFirst: 331.52878
+    sDegFirst: -39.54305
+    hDegSecond: 328.4819
+    sDegSecond: -37.364822
+    constellationName: Gru
+  - hDegFirst: 264.8662
+    sDegFirst: 46.00632
+    hDegSecond: 269.06323
+    sDegSecond: 37.250523
+    constellationName: Her
+  - hDegFirst: 269.06323
+    sDegFirst: 37.250523
+    hDegSecond: 260.92072
+    sDegSecond: 37.145924
+    constellationName: Her
+  - hDegFirst: 260.92072
+    sDegFirst: 37.145924
+    hDegSecond: 259.41785
+    sDegSecond: 37.291344
+    constellationName: Her
+  - hDegFirst: 259.41785
+    sDegFirst: 37.291344
+    hDegSecond: 258.7619
+    sDegSecond: 36.809155
+    constellationName: Her
+  - hDegFirst: 258.7619
+    sDegFirst: 36.809155
+    hDegSecond: 250.7239
+    sDegSecond: 38.922462
+    constellationName: Her
+  - hDegFirst: 250.7239
+    sDegFirst: 38.922462
+    hDegSecond: 248.52579
+    sDegSecond: 42.436897
+    constellationName: Her
+  - hDegFirst: 248.52579
+    sDegFirst: 42.436897
+    hDegSecond: 244.9352
+    sDegSecond: 46.31327
+    constellationName: Her
+  - hDegFirst: 244.9352
+    sDegFirst: 46.31327
+    hDegSecond: 238.16748
+    sDegSecond: 42.44999
+    constellationName: Her
+  - hDegFirst: 250.7239
+    sDegFirst: 38.922462
+    hDegSecond: 250.32281
+    sDegSecond: 31.601887
+    constellationName: Her
+  - hDegFirst: 250.32281
+    sDegFirst: 31.601887
+    hDegSecond: 247.55525
+    sDegSecond: 21.489649
+    constellationName: Her
+  - hDegFirst: 247.55525
+    sDegFirst: 21.489649
+    hDegSecond: 245.48018
+    sDegSecond: 19.153023
+    constellationName: Her
+  - hDegFirst: 250.32281
+    sDegFirst: 31.601887
+    hDegSecond: 255.07253
+    sDegSecond: 30.92634
+    constellationName: Her
+  - hDegFirst: 255.07253
+    sDegFirst: 30.92634
+    hDegSecond: 262.68457
+    sDegSecond: 26.110605
+    constellationName: Her
+  - hDegFirst: 262.68457
+    sDegFirst: 26.110605
+    hDegSecond: 258.75803
+    sDegSecond: 24.839588
+    constellationName: Her
+  - hDegFirst: 266.6155
+    sDegFirst: 27.7225
+    hDegSecond: 269.44095
+    sDegSecond: 29.247925
+    constellationName: Her
+  - hDegFirst: 269.44095
+    sDegFirst: 29.247925
+    hDegSecond: 271.88562
+    sDegSecond: 28.76247
+    constellationName: Her
+  - hDegFirst: 269.44095
+    sDegFirst: 29.247925
+    hDegSecond: 266.6155
+    sDegSecond: 27.7225
+    constellationName: Her
+  - hDegFirst: 255.07253
+    sDegFirst: 30.92634
+    hDegSecond: 258.7619
+    sDegSecond: 36.809155
+    constellationName: Her
+  - hDegFirst: 63.50034
+    sDegFirst: -42.293873
+    hDegSecond: 40.164917
+    sDegSecond: -54.549923
+    constellationName: Hor
+  - hDegFirst: 40.164917
+    sDegFirst: -54.549923
+    hDegSecond: 45.903767
+    sDegSecond: -59.73762
+    constellationName: Hor
+  - hDegFirst: 130.8062
+    sDegFirst: 3.3986652
+    hDegSecond: 129.68938
+    sDegSecond: 3.3414748
+    constellationName: Hya
+  - hDegFirst: 129.68938
+    sDegFirst: 3.3414748
+    hDegSecond: 129.4142
+    sDegSecond: 5.703799
+    constellationName: Hya
+  - hDegFirst: 129.4142
+    sDegFirst: 5.703799
+    hDegSecond: 131.69437
+    sDegSecond: 6.418907
+    constellationName: Hya
+  - hDegFirst: 131.69437
+    sDegFirst: 6.418907
+    hDegSecond: 132.10825
+    sDegSecond: 5.837885
+    constellationName: Hya
+  - hDegFirst: 132.10825
+    sDegFirst: 5.837885
+    hDegSecond: 130.8062
+    sDegSecond: 3.3986652
+    constellationName: Hya
+  - hDegFirst: 132.10825
+    sDegFirst: 5.837885
+    hDegSecond: 133.8487
+    sDegSecond: 5.9455276
+    constellationName: Hya
+  - hDegFirst: 133.8487
+    sDegFirst: 5.9455276
+    hDegSecond: 138.5908
+    sDegSecond: 2.3150241
+    constellationName: Hya
+  - hDegFirst: 138.5908
+    sDegFirst: 2.3150241
+    hDegSecond: 142.99556
+    sDegSecond: -1.1846545
+    constellationName: Hya
+  - hDegFirst: 142.99556
+    sDegFirst: -1.1846545
+    hDegSecond: 142.28683
+    sDegSecond: -2.7689564
+    constellationName: Hya
+  - hDegFirst: 142.28683
+    sDegFirst: -2.7689564
+    hDegSecond: 141.89688
+    sDegSecond: -8.658684
+    constellationName: Hya
+  - hDegFirst: 141.89688
+    sDegFirst: -8.658684
+    hDegSecond: 147.8695
+    sDegSecond: -14.84655
+    constellationName: Hya
+  - hDegFirst: 147.8695
+    sDegFirst: -14.84655
+    hDegSecond: 152.64749
+    sDegSecond: -12.353839
+    constellationName: Hya
+  - hDegFirst: 152.64749
+    sDegFirst: -12.353839
+    hDegSecond: 156.52293
+    sDegSecond: -16.836096
+    constellationName: Hya
+  - hDegFirst: 156.52293
+    sDegFirst: -16.836096
+    hDegSecond: 162.40596
+    sDegSecond: -16.194132
+    constellationName: Hya
+  - hDegFirst: 162.40596
+    sDegFirst: -16.194132
+    hDegSecond: 173.25108
+    sDegSecond: -31.857525
+    constellationName: Hya
+  - hDegFirst: 173.25108
+    sDegFirst: -31.857525
+    hDegSecond: 178.22734
+    sDegSecond: -33.90813
+    constellationName: Hya
+  - hDegFirst: 178.22734
+    sDegFirst: -33.90813
+    hDegSecond: 197.26367
+    sDegSecond: -23.117973
+    constellationName: Hya
+  - hDegFirst: 197.26367
+    sDegFirst: -23.117973
+    hDegSecond: 199.73022
+    sDegSecond: -23.171413
+    constellationName: Hya
+  - hDegFirst: 6.4133415
+    sDegFirst: -77.255035
+    hDegSecond: 56.8093
+    sDegSecond: -74.23924
+    constellationName: Hyi
+  - hDegFirst: 56.8093
+    sDegFirst: -74.23924
+    hDegSecond: 39.896767
+    sDegSecond: -68.266945
+    constellationName: Hyi
+  - hDegFirst: 39.896767
+    sDegFirst: -68.266945
+    hDegSecond: 35.437595
+    sDegSecond: -68.659424
+    constellationName: Hyi
+  - hDegFirst: 35.437595
+    sDegFirst: -68.659424
+    hDegSecond: 29.691132
+    sDegSecond: -61.569923
+    constellationName: Hyi
+  - hDegFirst: 319.9662
+    sDegFirst: -53.449265
+    hDegSecond: 309.39163
+    sDegSecond: -47.291664
+    constellationName: Ind
+  - hDegFirst: 309.39163
+    sDegFirst: -47.291664
+    hDegSecond: 313.70242
+    sDegSecond: -58.454094
+    constellationName: Ind
+  - hDegFirst: 313.70242
+    sDegFirst: -58.454094
+    hDegSecond: 319.9662
+    sDegSecond: -53.449265
+    constellationName: Ind
+  - hDegFirst: 333.99237
+    sDegFirst: 37.748734
+    hDegSecond: 337.62192
+    sDegSecond: 43.12339
+    constellationName: Lac
+  - hDegFirst: 337.62192
+    sDegFirst: 43.12339
+    hDegSecond: 337.3826
+    sDegSecond: 47.706894
+    constellationName: Lac
+  - hDegFirst: 337.3826
+    sDegFirst: 47.706894
+    hDegSecond: 336.12915
+    sDegSecond: 49.476402
+    constellationName: Lac
+  - hDegFirst: 336.12915
+    sDegFirst: 49.476402
+    hDegSecond: 335.89014
+    sDegSecond: 52.2295
+    constellationName: Lac
+  - hDegFirst: 335.89014
+    sDegFirst: 52.2295
+    hDegSecond: 337.8224
+    sDegSecond: 50.282448
+    constellationName: Lac
+  - hDegFirst: 337.8224
+    sDegFirst: 50.282448
+    hDegSecond: 337.3826
+    sDegSecond: 47.706894
+    constellationName: Lac
+  - hDegFirst: 177.26616
+    sDegFirst: 14.572337
+    hDegSecond: 168.56017
+    sDegSecond: 15.429763
+    constellationName: Leo
+  - hDegFirst: 168.56017
+    sDegFirst: 15.429763
+    hDegSecond: 152.09358
+    sDegSecond: 11.967195
+    constellationName: Leo
+  - hDegFirst: 152.09358
+    sDegFirst: 11.967195
+    hDegSecond: 151.83315
+    sDegSecond: 16.762667
+    constellationName: Leo
+  - hDegFirst: 151.83315
+    sDegFirst: 16.762667
+    hDegSecond: 154.99234
+    sDegSecond: 19.84186
+    constellationName: Leo
+  - hDegFirst: 154.99234
+    sDegFirst: 19.84186
+    hDegSecond: 168.52672
+    sDegSecond: 20.524035
+    constellationName: Leo
+  - hDegFirst: 168.52672
+    sDegFirst: 20.524035
+    hDegSecond: 177.26616
+    sDegSecond: 14.572337
+    constellationName: Leo
+  - hDegFirst: 154.99234
+    sDegFirst: 19.84186
+    hDegSecond: 154.17252
+    sDegSecond: 23.417328
+    constellationName: Leo
+  - hDegFirst: 154.17252
+    sDegFirst: 23.417328
+    hDegSecond: 148.1915
+    sDegSecond: 26.007086
+    constellationName: Leo
+  - hDegFirst: 148.1915
+    sDegFirst: 26.007086
+    hDegSecond: 146.46292
+    sDegSecond: 23.774279
+    constellationName: Leo
+  - hDegFirst: 168.52672
+    sDegFirst: 20.524035
+    hDegSecond: 168.56017
+    sDegSecond: 15.429763
+    constellationName: Leo
+  - hDegFirst: 91.538895
+    sDegFirst: -14.9352865
+    hDegSecond: 89.101326
+    sDegSecond: -14.168038
+    constellationName: Lep
+  - hDegFirst: 89.101326
+    sDegFirst: -14.168038
+    hDegSecond: 86.73896
+    sDegSecond: -14.821947
+    constellationName: Lep
+  - hDegFirst: 86.73896
+    sDegFirst: -14.821947
+    hDegSecond: 83.182556
+    sDegSecond: -17.822292
+    constellationName: Lep
+  - hDegFirst: 83.182556
+    sDegFirst: -17.822292
+    hDegSecond: 78.2328
+    sDegSecond: -16.20543
+    constellationName: Lep
+  - hDegFirst: 83.182556
+    sDegFirst: -17.822292
+    hDegSecond: 87.8298
+    sDegSecond: -20.877514
+    constellationName: Lep
+  - hDegFirst: 87.8298
+    sDegFirst: -20.877514
+    hDegSecond: 86.11656
+    sDegSecond: -22.447487
+    constellationName: Lep
+  - hDegFirst: 86.11656
+    sDegFirst: -22.447487
+    hDegSecond: 82.06136
+    sDegSecond: -20.759232
+    constellationName: Lep
+  - hDegFirst: 82.06136
+    sDegFirst: -20.759232
+    hDegSecond: 76.36522
+    sDegSecond: -22.370857
+    constellationName: Lep
+  - hDegFirst: 83.182556
+    sDegFirst: -17.822292
+    hDegSecond: 82.06136
+    sDegSecond: -20.759232
+    constellationName: Lep
+  - hDegFirst: 78.2328
+    sDegFirst: -16.20543
+    hDegSecond: 79.89386
+    sDegSecond: -13.176777
+    constellationName: Lep
+  - hDegFirst: 78.2328
+    sDegFirst: -16.20543
+    hDegSecond: 78.30785
+    sDegSecond: -12.941288
+    constellationName: Lep
+  - hDegFirst: 76.36522
+    sDegFirst: -22.370857
+    hDegSecond: 78.2328
+    sDegSecond: -16.20543
+    constellationName: Lep
+  - hDegFirst: 78.30785
+    sDegFirst: -12.941288
+    hDegSecond: 78.07453
+    sDegSecond: -11.869143
+    constellationName: Lep
+  - hDegFirst: 79.89386
+    sDegFirst: -13.176777
+    hDegSecond: 79.995964
+    sDegSecond: -12.315604
+    constellationName: Lep
+  - hDegFirst: 238.45616
+    sDegFirst: -16.729622
+    hDegSecond: 233.88141
+    sDegSecond: -14.789554
+    constellationName: Lib
+  - hDegFirst: 233.88141
+    sDegFirst: -14.789554
+    hDegSecond: 229.25197
+    sDegSecond: -9.382867
+    constellationName: Lib
+  - hDegFirst: 229.25197
+    sDegFirst: -9.382867
+    hDegSecond: 222.71991
+    sDegSecond: -16.04161
+    constellationName: Lib
+  - hDegFirst: 222.71991
+    sDegFirst: -16.04161
+    hDegSecond: 226.01776
+    sDegSecond: -25.281857
+    constellationName: Lib
+  - hDegFirst: 226.01776
+    sDegFirst: -25.281857
+    hDegSecond: 233.88141
+    sDegSecond: -14.789554
+    constellationName: Lib
+  - hDegFirst: 163.32767
+    sDegFirst: 34.215565
+    hDegSecond: 156.97122
+    sDegSecond: 36.707478
+    constellationName: LMi
+  - hDegFirst: 156.97122
+    sDegFirst: 36.707478
+    hDegSecond: 151.8572
+    sDegSecond: 35.24469
+    constellationName: LMi
+  - hDegFirst: 151.8572
+    sDegFirst: 35.24469
+    hDegSecond: 143.55574
+    sDegSecond: 36.397614
+    constellationName: LMi
+  - hDegFirst: 151.8572
+    sDegFirst: 35.24469
+    hDegSecond: 163.32767
+    sDegSecond: 34.215565
+    constellationName: LMi
+  - hDegFirst: 237.73976
+    sDegFirst: -33.627106
+    hDegSecond: 241.8174
+    sDegSecond: -36.75554
+    constellationName: Lup
+  - hDegFirst: 241.8174
+    sDegFirst: -36.75554
+    hDegSecond: 240.03058
+    sDegSecond: -38.39664
+    constellationName: Lup
+  - hDegFirst: 240.03058
+    sDegFirst: -38.39664
+    hDegSecond: 237.73976
+    sDegSecond: -33.627106
+    constellationName: Lup
+  - hDegFirst: 240.03058
+    sDegFirst: -38.39664
+    hDegSecond: 233.78525
+    sDegSecond: -41.166695
+    constellationName: Lup
+  - hDegFirst: 233.78525
+    sDegFirst: -41.166695
+    hDegSecond: 230.34306
+    sDegSecond: -40.64746
+    constellationName: Lup
+  - hDegFirst: 230.34306
+    sDegFirst: -40.64746
+    hDegSecond: 230.45181
+    sDegSecond: -36.261166
+    constellationName: Lup
+  - hDegFirst: 230.34306
+    sDegFirst: -40.64746
+    hDegSecond: 224.63315
+    sDegSecond: -43.133865
+    constellationName: Lup
+  - hDegFirst: 233.78525
+    sDegFirst: -41.166695
+    hDegSecond: 234.51384
+    sDegSecond: -42.567486
+    constellationName: Lup
+  - hDegFirst: 234.51384
+    sDegFirst: -42.567486
+    hDegSecond: 228.07169
+    sDegSecond: -52.099075
+    constellationName: Lup
+  - hDegFirst: 228.07169
+    sDegFirst: -52.099075
+    hDegSecond: 220.48239
+    sDegSecond: -47.38814
+    constellationName: Lup
+  - hDegFirst: 228.07169
+    sDegFirst: -52.099075
+    hDegSecond: 219.47188
+    sDegSecond: -49.42576
+    constellationName: Lup
+  - hDegFirst: 220.48239
+    sDegFirst: -47.38814
+    hDegSecond: 216.54501
+    sDegSecond: -45.37926
+    constellationName: Lup
+  - hDegFirst: 220.48239
+    sDegFirst: -47.38814
+    hDegSecond: 224.63315
+    sDegSecond: -43.133865
+    constellationName: Lup
+  - hDegFirst: 140.2644
+    sDegFirst: 34.392525
+    hDegSecond: 139.71112
+    sDegSecond: 36.8029
+    constellationName: Lyn
+  - hDegFirst: 139.71112
+    sDegFirst: 36.8029
+    hDegSecond: 136.63245
+    sDegSecond: 38.45225
+    constellationName: Lyn
+  - hDegFirst: 136.63245
+    sDegFirst: 38.45225
+    hDegSecond: 135.16147
+    sDegSecond: 41.783443
+    constellationName: Lyn
+  - hDegFirst: 135.16147
+    sDegFirst: 41.783443
+    hDegSecond: 125.70888
+    sDegSecond: 43.188374
+    constellationName: Lyn
+  - hDegFirst: 125.70888
+    sDegFirst: 43.188374
+    hDegSecond: 111.67859
+    sDegSecond: 49.211643
+    constellationName: Lyn
+  - hDegFirst: 111.67859
+    sDegFirst: 49.211643
+    hDegSecond: 104.31916
+    sDegSecond: 58.42306
+    constellationName: Lyn
+  - hDegFirst: 104.31916
+    sDegFirst: 58.42306
+    hDegSecond: 94.90579
+    sDegSecond: 59.010906
+    constellationName: Lyn
+  - hDegFirst: 279.2341
+    sDegFirst: 38.782993
+    hDegSecond: 281.19305
+    sDegSecond: 37.60505
+    constellationName: Lyr
+  - hDegFirst: 281.19305
+    sDegFirst: 37.60505
+    hDegSecond: 282.52
+    sDegSecond: 33.36268
+    constellationName: Lyr
+  - hDegFirst: 282.52
+    sDegFirst: 33.36268
+    hDegSecond: 284.73593
+    sDegSecond: 32.689552
+    constellationName: Lyr
+  - hDegFirst: 284.73593
+    sDegFirst: 32.689552
+    hDegSecond: 283.6262
+    sDegSecond: 36.898605
+    constellationName: Lyr
+  - hDegFirst: 283.6262
+    sDegFirst: 36.898605
+    hDegSecond: 281.19305
+    sDegSecond: 37.60505
+    constellationName: Lyr
+  - hDegFirst: 82.96942
+    sDegFirst: -76.34166
+    hDegSecond: 70.76644
+    sDegSecond: -70.931114
+    constellationName: Men
+  - hDegFirst: 319.48438
+    sDegFirst: -32.172485
+    hDegSecond: 315.32275
+    sDegSecond: -32.257767
+    constellationName: Mic
+  - hDegFirst: 315.32275
+    sDegFirst: -32.257767
+    hDegSecond: 312.492
+    sDegSecond: -33.779675
+    constellationName: Mic
+  - hDegFirst: 93.713905
+    sDegFirst: -6.2747273
+    hDegSecond: 97.204475
+    sDegSecond: -7.0330505
+    constellationName: Mon
+  - hDegFirst: 97.204475
+    sDegFirst: -7.0330505
+    hDegSecond: 107.96609
+    sDegSecond: 0.49278057
+    constellationName: Mon
+  - hDegFirst: 107.96609
+    sDegFirst: 0.49278057
+    hDegSecond: 95.94207
+    sDegSecond: 4.592839
+    constellationName: Mon
+  - hDegFirst: 95.94207
+    sDegFirst: 4.592839
+    hDegSecond: 92.24127
+    sDegSecond: 2.4997268
+    constellationName: Mon
+  - hDegFirst: 107.96609
+    sDegFirst: 0.49278057
+    hDegSecond: 122.148575
+    sDegSecond: -2.9837763
+    constellationName: Mon
+  - hDegFirst: 122.148575
+    sDegFirst: -2.9837763
+    hDegSecond: 115.31199
+    sDegSecond: -9.551083
+    constellationName: Mon
+  - hDegFirst: 191.5703
+    sDegFirst: -68.10809
+    hDegSecond: 176.40236
+    sDegSecond: -66.72884
+    constellationName: Mus
+  - hDegFirst: 176.40236
+    sDegFirst: -66.72884
+    hDegSecond: 188.11713
+    sDegSecond: -72.13297
+    constellationName: Mus
+  - hDegFirst: 188.11713
+    sDegFirst: -72.13297
+    hDegSecond: 189.29619
+    sDegSecond: -69.13554
+    constellationName: Mus
+  - hDegFirst: 189.29619
+    sDegFirst: -69.13554
+    hDegSecond: 191.5703
+    sDegSecond: -68.10809
+    constellationName: Mus
+  - hDegFirst: 243.36972
+    sDegFirst: -54.630413
+    hDegSecond: 244.9607
+    sDegSecond: -50.15538
+    constellationName: Nor
+  - hDegFirst: 244.9607
+    sDegFirst: -50.15538
+    hDegSecond: 246.79604
+    sDegSecond: -47.554737
+    constellationName: Nor
+  - hDegFirst: 246.79604
+    sDegFirst: -47.554737
+    hDegSecond: 240.80359
+    sDegSecond: -49.22972
+    constellationName: Nor
+  - hDegFirst: 240.80359
+    sDegFirst: -49.22972
+    hDegSecond: 244.9607
+    sDegSecond: -50.15538
+    constellationName: Nor
+  - hDegFirst: 240.80359
+    sDegFirst: -49.22972
+    hDegSecond: 243.36972
+    sDegSecond: -54.630413
+    constellationName: Nor
+  - hDegFirst: 325.36865
+    sDegFirst: -77.389465
+    hDegSecond: 341.5155
+    sDegSecond: -81.381615
+    constellationName: Oct
+  - hDegFirst: 341.5155
+    sDegFirst: -81.381615
+    hDegSecond: 216.73225
+    sDegSecond: -83.667854
+    constellationName: Oct
+  - hDegFirst: 216.73225
+    sDegFirst: -83.667854
+    hDegSecond: 325.36865
+    sDegSecond: -77.389465
+    constellationName: Oct
+  - hDegFirst: 263.73337
+    sDegFirst: 12.5605755
+    hDegSecond: 265.86823
+    sDegSecond: 4.566917
+    constellationName: Oph
+  - hDegFirst: 257.59442
+    sDegFirst: -15.725147
+    hDegSecond: 265.86823
+    sDegSecond: 4.566917
+    constellationName: Oph
+  - hDegFirst: 263.73337
+    sDegFirst: 12.5605755
+    hDegSecond: 254.4178
+    sDegSecond: 9.375056
+    constellationName: Oph
+  - hDegFirst: 254.4178
+    sDegFirst: 9.375056
+    hDegSecond: 244.58017
+    sDegSecond: -4.692608
+    constellationName: Oph
+  - hDegFirst: 244.58017
+    sDegFirst: -4.692608
+    hDegSecond: 249.2897
+    sDegSecond: -10.567152
+    constellationName: Oph
+  - hDegFirst: 249.2897
+    sDegFirst: -10.567152
+    hDegSecond: 257.59442
+    sDegSecond: -15.725147
+    constellationName: Oph
+  - hDegFirst: 257.59442
+    sDegFirst: -15.725147
+    hDegSecond: 262.85397
+    sDegSecond: -23.96258
+    constellationName: Oph
+  - hDegFirst: 85.18969
+    sDegFirst: -1.9425783
+    hDegSecond: 84.05338
+    sDegSecond: -1.2019172
+    constellationName: Ori
+  - hDegFirst: 84.05338
+    sDegFirst: -1.2019172
+    hDegSecond: 83.00166
+    sDegSecond: 0.29909334
+    constellationName: Ori
+  - hDegFirst: 90.864
+    sDegFirst: 19.69061
+    hDegSecond: 92.984985
+    sDegSecond: 14.208815
+    constellationName: Ori
+  - hDegFirst: 92.984985
+    sDegFirst: 14.208815
+    hDegSecond: 91.893005
+    sDegSecond: 14.768523
+    constellationName: Ori
+  - hDegFirst: 91.893005
+    sDegFirst: 14.768523
+    hDegSecond: 88.59618
+    sDegSecond: 20.276415
+    constellationName: Ori
+  - hDegFirst: 92.984985
+    sDegFirst: 14.208815
+    hDegSecond: 90.595795
+    sDegSecond: 9.6473675
+    constellationName: Ori
+  - hDegFirst: 90.595795
+    sDegFirst: 9.6473675
+    hDegSecond: 88.79287
+    sDegSecond: 7.4070363
+    constellationName: Ori
+  - hDegFirst: 88.79287
+    sDegFirst: 7.4070363
+    hDegSecond: 85.18969
+    sDegSecond: -1.9425783
+    constellationName: Ori
+  - hDegFirst: 85.18969
+    sDegFirst: -1.9425783
+    hDegSecond: 86.93912
+    sDegSecond: -9.669602
+    constellationName: Ori
+  - hDegFirst: 86.93912
+    sDegFirst: -9.669602
+    hDegSecond: 78.63446
+    sDegSecond: -8.201639
+    constellationName: Ori
+  - hDegFirst: 78.63446
+    sDegFirst: -8.201639
+    hDegSecond: 83.00166
+    sDegSecond: 0.29909334
+    constellationName: Ori
+  - hDegFirst: 83.00166
+    sDegFirst: 0.29909334
+    hDegSecond: 81.28278
+    sDegSecond: 6.3497343
+    constellationName: Ori
+  - hDegFirst: 81.28278
+    sDegFirst: 6.3497343
+    hDegSecond: 83.78449
+    sDegSecond: 9.934163
+    constellationName: Ori
+  - hDegFirst: 83.78449
+    sDegFirst: 9.934163
+    hDegSecond: 88.79287
+    sDegSecond: 7.4070363
+    constellationName: Ori
+  - hDegFirst: 81.28278
+    sDegFirst: 6.3497343
+    hDegSecond: 72.45891
+    sDegSecond: 6.9612474
+    constellationName: Ori
+  - hDegFirst: 72.45891
+    sDegFirst: 6.9612474
+    hDegSecond: 72.80152
+    sDegSecond: 5.6051016
+    constellationName: Ori
+  - hDegFirst: 72.80152
+    sDegFirst: 5.6051016
+    hDegSecond: 73.34481
+    sDegSecond: 2.508265
+    constellationName: Ori
+  - hDegFirst: 73.34481
+    sDegFirst: 2.508265
+    hDegSecond: 74.63709
+    sDegSecond: 1.714035
+    constellationName: Ori
+  - hDegFirst: 72.45891
+    sDegFirst: 6.9612474
+    hDegSecond: 72.65301
+    sDegSecond: 8.900252
+    constellationName: Ori
+  - hDegFirst: 72.65301
+    sDegFirst: 8.900252
+    hDegSecond: 73.72377
+    sDegSecond: 10.151145
+    constellationName: Ori
+  - hDegFirst: 91.893005
+    sDegFirst: 14.768523
+    hDegSecond: 90.595795
+    sDegSecond: 9.6473675
+    constellationName: Ori
+  - hDegFirst: 306.41187
+    sDegFirst: -56.734882
+    hDegSecond: 321.61038
+    sDegSecond: -65.36814
+    constellationName: Pav
+  - hDegFirst: 321.61038
+    sDegFirst: -65.36814
+    hDegSecond: 311.2398
+    sDegSecond: -66.20324
+    constellationName: Pav
+  - hDegFirst: 311.2398
+    sDegFirst: -66.20324
+    hDegSecond: 302.1744
+    sDegSecond: -66.17932
+    constellationName: Pav
+  - hDegFirst: 302.1744
+    sDegFirst: -66.17932
+    hDegSecond: 306.41187
+    sDegSecond: -56.734882
+    constellationName: Pav
+  - hDegFirst: 302.1744
+    sDegFirst: -66.17932
+    hDegSecond: 300.14746
+    sDegSecond: -72.91019
+    constellationName: Pav
+  - hDegFirst: 300.14746
+    sDegFirst: -72.91019
+    hDegSecond: 280.75888
+    sDegSecond: -71.42773
+    constellationName: Pav
+  - hDegFirst: 280.75888
+    sDegFirst: -71.42773
+    hDegSecond: 284.23767
+    sDegSecond: -67.233536
+    constellationName: Pav
+  - hDegFirst: 284.23767
+    sDegFirst: -67.233536
+    hDegSecond: 302.1744
+    sDegSecond: -66.17932
+    constellationName: Pav
+  - hDegFirst: 284.23767
+    sDegFirst: -67.233536
+    hDegSecond: 283.05432
+    sDegSecond: -62.18756
+    constellationName: Pav
+  - hDegFirst: 283.05432
+    sDegFirst: -62.18756
+    hDegSecond: 275.80676
+    sDegSecond: -61.493904
+    constellationName: Pav
+  - hDegFirst: 275.80676
+    sDegFirst: -61.493904
+    hDegSecond: 272.14496
+    sDegSecond: -63.66805
+    constellationName: Pav
+  - hDegFirst: 272.14496
+    sDegFirst: -63.66805
+    hDegSecond: 283.05432
+    sDegSecond: -62.18756
+    constellationName: Pav
+  - hDegFirst: 272.14496
+    sDegFirst: -63.66805
+    hDegSecond: 266.43335
+    sDegSecond: -64.72373
+    constellationName: Pav
+  - hDegFirst: 3.3089583
+    sDegFirst: 15.183616
+    hDegSecond: 346.19006
+    sDegSecond: 15.205368
+    constellationName: Peg
+  - hDegFirst: 345.94305
+    sDegFirst: 28.082455
+    hDegSecond: 340.75055
+    sDegSecond: 30.221308
+    constellationName: Peg
+  - hDegFirst: 340.75055
+    sDegFirst: 30.221308
+    hDegSecond: 332.30698
+    sDegSecond: 33.172497
+    constellationName: Peg
+  - hDegFirst: 345.94305
+    sDegFirst: 28.082455
+    hDegSecond: 342.50043
+    sDegSecond: 24.601685
+    constellationName: Peg
+  - hDegFirst: 342.50043
+    sDegFirst: 24.601685
+    hDegSecond: 341.6327
+    sDegSecond: 23.56568
+    constellationName: Peg
+  - hDegFirst: 341.6327
+    sDegFirst: 23.56568
+    hDegSecond: 331.75198
+    sDegSecond: 25.345047
+    constellationName: Peg
+  - hDegFirst: 331.75198
+    sDegFirst: 25.345047
+    hDegSecond: 326.16125
+    sDegSecond: 25.645002
+    constellationName: Peg
+  - hDegFirst: 346.19006
+    sDegFirst: 15.205368
+    hDegSecond: 341.67267
+    sDegSecond: 12.174084
+    constellationName: Peg
+  - hDegFirst: 341.67267
+    sDegFirst: 12.174084
+    hDegSecond: 340.36533
+    sDegSecond: 10.831391
+    constellationName: Peg
+  - hDegFirst: 340.36533
+    sDegFirst: 10.831391
+    hDegSecond: 332.54926
+    sDegSecond: 6.1977887
+    constellationName: Peg
+  - hDegFirst: 332.54926
+    sDegFirst: 6.1977887
+    hDegSecond: 326.04642
+    sDegSecond: 9.875008
+    constellationName: Peg
+  - hDegFirst: 2.0965333
+    sDegFirst: 29.090828
+    hDegSecond: 345.94305
+    sDegSecond: 28.082455
+    constellationName: Peg
+  - hDegFirst: 2.0965333
+    sDegFirst: 29.090828
+    hDegSecond: 3.3089583
+    sDegSecond: 15.183616
+    constellationName: Peg
+  - hDegFirst: 345.94305
+    sDegFirst: 28.082455
+    hDegSecond: 346.19006
+    sDegSecond: 15.205368
+    constellationName: Peg
+  - hDegFirst: 56.079693
+    sDegFirst: 32.288273
+    hDegSecond: 58.532993
+    sDegSecond: 31.883657
+    constellationName: Per
+  - hDegFirst: 58.532993
+    sDegFirst: 31.883657
+    hDegSecond: 59.74125
+    sDegSecond: 35.791027
+    constellationName: Per
+  - hDegFirst: 59.74125
+    sDegFirst: 35.791027
+    hDegSecond: 59.46342
+    sDegSecond: 40.010273
+    constellationName: Per
+  - hDegFirst: 59.46342
+    sDegFirst: 40.010273
+    hDegSecond: 55.731174
+    sDegSecond: 47.787655
+    constellationName: Per
+  - hDegFirst: 55.731174
+    sDegFirst: 47.787655
+    hDegSecond: 51.08062
+    sDegSecond: 49.861244
+    constellationName: Per
+  - hDegFirst: 51.08062
+    sDegFirst: 49.861244
+    hDegSecond: 46.199127
+    sDegSecond: 53.50645
+    constellationName: Per
+  - hDegFirst: 46.199127
+    sDegFirst: 53.50645
+    hDegSecond: 42.674137
+    sDegSecond: 55.89553
+    constellationName: Per
+  - hDegFirst: 51.08062
+    sDegFirst: 49.861244
+    hDegSecond: 47.042206
+    sDegSecond: 40.95565
+    constellationName: Per
+  - hDegFirst: 47.042206
+    sDegFirst: 40.95565
+    hDegSecond: 46.29374
+    sDegSecond: 38.840534
+    constellationName: Per
+  - hDegFirst: 46.29374
+    sDegFirst: 38.840534
+    hDegSecond: 42.645477
+    sDegSecond: 38.31891
+    constellationName: Per
+  - hDegFirst: 17.096085
+    sDegFirst: -55.24583
+    hDegSecond: 16.521276
+    sDegSecond: -46.71849
+    constellationName: Phe
+  - hDegFirst: 16.521276
+    sDegFirst: -46.71849
+    hDegSecond: 6.550484
+    sDegSecond: -43.67991
+    constellationName: Phe
+  - hDegFirst: 6.550484
+    sDegFirst: -43.67991
+    hDegSecond: 17.096085
+    sDegSecond: -55.24583
+    constellationName: Phe
+  - hDegFirst: 16.521276
+    sDegFirst: -46.71849
+    hDegSecond: 22.812424
+    sDegSecond: -49.07308
+    constellationName: Phe
+  - hDegFirst: 22.812424
+    sDegFirst: -49.07308
+    hDegSecond: 28.411749
+    sDegSecond: -46.30245
+    constellationName: Phe
+  - hDegFirst: 28.411749
+    sDegFirst: -46.30245
+    hDegSecond: 16.521276
+    sDegSecond: -46.71849
+    constellationName: Phe
+  - hDegFirst: 16.521276
+    sDegFirst: -46.71849
+    hDegSecond: 22.091423
+    sDegSecond: -43.31773
+    constellationName: Phe
+  - hDegFirst: 22.091423
+    sDegFirst: -43.31773
+    hDegSecond: 6.550484
+    sDegSecond: -43.67991
+    constellationName: Phe
+  - hDegFirst: 6.550484
+    sDegFirst: -43.67991
+    hDegSecond: 6.570281
+    sDegSecond: -42.305122
+    constellationName: Phe
+  - hDegFirst: 6.570281
+    sDegFirst: -42.305122
+    hDegSecond: 2.3522496
+    sDegSecond: -45.74699
+    constellationName: Phe
+  - hDegFirst: 2.3522496
+    sDegFirst: -45.74699
+    hDegSecond: 6.550484
+    sDegSecond: -43.67991
+    constellationName: Phe
+  - hDegFirst: 102.04807
+    sDegFirst: -61.94198
+    hDegSecond: 87.45657
+    sDegSecond: -56.16649
+    constellationName: Pic
+  - hDegFirst: 87.45657
+    sDegFirst: -56.16649
+    hDegSecond: 86.82118
+    sDegSecond: -51.066715
+    constellationName: Pic
+  - hDegFirst: 344.41177
+    sDegFirst: -29.621838
+    hDegSecond: 340.16385
+    sDegSecond: -27.043615
+    constellationName: PsA
+  - hDegFirst: 340.16385
+    sDegFirst: -27.043615
+    hDegSecond: 330.20923
+    sDegSecond: -28.453737
+    constellationName: PsA
+  - hDegFirst: 330.20923
+    sDegFirst: -28.453737
+    hDegSecond: 326.93405
+    sDegSecond: -30.898306
+    constellationName: PsA
+  - hDegFirst: 326.93405
+    sDegFirst: -30.898306
+    hDegSecond: 332.53534
+    sDegSecond: -32.54844
+    constellationName: PsA
+  - hDegFirst: 332.53534
+    sDegFirst: -32.54844
+    hDegSecond: 337.87622
+    sDegSecond: -32.346027
+    constellationName: PsA
+  - hDegFirst: 337.87622
+    sDegFirst: -32.346027
+    hDegSecond: 343.98706
+    sDegSecond: -32.539703
+    constellationName: PsA
+  - hDegFirst: 15.704528
+    sDegFirst: 31.804337
+    hDegSecond: 18.43723
+    sDegSecond: 24.583765
+    constellationName: Psc
+  - hDegFirst: 15.704528
+    sDegFirst: 31.804337
+    hDegSecond: 19.866575
+    sDegSecond: 27.264088
+    constellationName: Psc
+  - hDegFirst: 19.866575
+    sDegFirst: 27.264088
+    hDegSecond: 18.43723
+    sDegSecond: 24.583765
+    constellationName: Psc
+  - hDegFirst: 18.43723
+    sDegFirst: 24.583765
+    hDegSecond: 22.870808
+    sDegSecond: 15.345831
+    constellationName: Psc
+  - hDegFirst: 22.870808
+    sDegFirst: 15.345831
+    hDegSecond: 26.348286
+    sDegSecond: 9.157641
+    constellationName: Psc
+  - hDegFirst: 26.348286
+    sDegFirst: 9.157641
+    hDegSecond: 30.51167
+    sDegSecond: 2.7637606
+    constellationName: Psc
+  - hDegFirst: 30.51167
+    sDegFirst: 2.7637606
+    hDegSecond: 28.388903
+    sDegSecond: 3.1874783
+    constellationName: Psc
+  - hDegFirst: 28.388903
+    sDegFirst: 3.1874783
+    hDegSecond: 25.357948
+    sDegSecond: 5.4876046
+    constellationName: Psc
+  - hDegFirst: 25.357948
+    sDegFirst: 5.4876046
+    hDegSecond: 22.545595
+    sDegSecond: 6.143933
+    constellationName: Psc
+  - hDegFirst: 22.545595
+    sDegFirst: 6.143933
+    hDegSecond: 15.736066
+    sDegSecond: 7.8900723
+    constellationName: Psc
+  - hDegFirst: 15.736066
+    sDegFirst: 7.8900723
+    hDegSecond: 12.0722685
+    sDegSecond: 7.2999196
+    constellationName: Psc
+  - hDegFirst: 12.0722685
+    sDegFirst: 7.2999196
+    hDegSecond: 5.149434
+    sDegSecond: 8.1902485
+    constellationName: Psc
+  - hDegFirst: 5.149434
+    sDegFirst: 8.1902485
+    hDegSecond: 359.8275
+    sDegSecond: 6.8635936
+    constellationName: Psc
+  - hDegFirst: 359.8275
+    sDegFirst: 6.8635936
+    hDegSecond: 354.98676
+    sDegSecond: 5.6273537
+    constellationName: Psc
+  - hDegFirst: 354.98676
+    sDegFirst: 5.6273537
+    hDegSecond: 355.512
+    sDegSecond: 1.7804172
+    constellationName: Psc
+  - hDegFirst: 355.512
+    sDegFirst: 1.7804172
+    hDegSecond: 351.73294
+    sDegSecond: 1.2558374
+    constellationName: Psc
+  - hDegFirst: 351.73294
+    sDegFirst: 1.2558374
+    hDegSecond: 349.28955
+    sDegSecond: 3.2822452
+    constellationName: Psc
+  - hDegFirst: 349.28955
+    sDegFirst: 3.2822452
+    hDegSecond: 351.99237
+    sDegSecond: 6.379097
+    constellationName: Psc
+  - hDegFirst: 351.99237
+    sDegFirst: 6.379097
+    hDegSecond: 354.98676
+    sDegSecond: 5.6273537
+    constellationName: Psc
+  - hDegFirst: 121.88626
+    sDegFirst: -24.304436
+    hDegSecond: 117.25707
+    sDegSecond: -24.912243
+    constellationName: Pup
+  - hDegFirst: 117.25707
+    sDegFirst: -24.912243
+    hDegSecond: 109.28568
+    sDegSecond: -37.09749
+    constellationName: Pup
+  - hDegFirst: 109.28568
+    sDegFirst: -37.09749
+    hDegSecond: 99.4403
+    sDegSecond: -43.195923
+    constellationName: Pup
+  - hDegFirst: 99.4403
+    sDegFirst: -43.195923
+    hDegSecond: 102.4839
+    sDegSecond: -50.6144
+    constellationName: Pup
+  - hDegFirst: 102.4839
+    sDegFirst: -50.6144
+    hDegSecond: 112.30782
+    sDegSecond: -43.30189
+    constellationName: Pup
+  - hDegFirst: 112.30782
+    sDegFirst: -43.30189
+    hDegSecond: 120.896126
+    sDegSecond: -40.00319
+    constellationName: Pup
+  - hDegFirst: 120.896126
+    sDegFirst: -40.00319
+    hDegSecond: 121.88626
+    sDegSecond: -24.304436
+    constellationName: Pup
+  - hDegFirst: 130.02557
+    sDegFirst: -35.3083
+    hDegSecond: 130.89812
+    sDegSecond: -33.186413
+    constellationName: Pyx
+  - hDegFirst: 130.89812
+    sDegFirst: -33.186413
+    hDegSecond: 132.63338
+    sDegSecond: -27.710058
+    constellationName: Pyx
+  - hDegFirst: 63.605965
+    sDegFirst: -62.47398
+    hDegSecond: 64.12118
+    sDegSecond: -59.30175
+    constellationName: Ret
+  - hDegFirst: 64.12118
+    sDegFirst: -59.30175
+    hDegSecond: 59.686405
+    sDegSecond: -61.40015
+    constellationName: Ret
+  - hDegFirst: 59.686405
+    sDegFirst: -61.40015
+    hDegSecond: 56.048145
+    sDegSecond: -64.80709
+    constellationName: Ret
+  - hDegFirst: 56.048145
+    sDegFirst: -64.80709
+    hDegSecond: 63.605965
+    sDegSecond: -62.47398
+    constellationName: Ret
+  - hDegFirst: 353.24246
+    sDegFirst: -37.81836
+    hDegSecond: 14.651442
+    sDegSecond: -29.357464
+    constellationName: Scl
+  - hDegFirst: 14.651442
+    sDegFirst: -29.357464
+    hDegSecond: 349.70593
+    sDegSecond: -32.531837
+    constellationName: Scl
+  - hDegFirst: 349.70593
+    sDegFirst: -32.531837
+    hDegSecond: 353.24246
+    sDegSecond: -37.81836
+    constellationName: Scl
+  - hDegFirst: 263.4022
+    sDegFirst: -37.10375
+    hDegSecond: 265.622
+    sDegSecond: -39.029922
+    constellationName: Sco
+  - hDegFirst: 265.622
+    sDegFirst: -39.029922
+    hDegSecond: 266.89618
+    sDegSecond: -40.126984
+    constellationName: Sco
+  - hDegFirst: 266.89618
+    sDegFirst: -40.126984
+    hDegSecond: 264.32968
+    sDegSecond: -42.99782
+    constellationName: Sco
+  - hDegFirst: 264.32968
+    sDegFirst: -42.99782
+    hDegSecond: 258.03824
+    sDegSecond: -43.23849
+    constellationName: Sco
+  - hDegFirst: 258.03824
+    sDegFirst: -43.23849
+    hDegSecond: 253.49887
+    sDegSecond: -42.36202
+    constellationName: Sco
+  - hDegFirst: 253.49887
+    sDegFirst: -42.36202
+    hDegSecond: 252.96767
+    sDegSecond: -38.04733
+    constellationName: Sco
+  - hDegFirst: 252.96767
+    sDegFirst: -38.04733
+    hDegSecond: 252.5427
+    sDegSecond: -34.29261
+    constellationName: Sco
+  - hDegFirst: 252.5427
+    sDegFirst: -34.29261
+    hDegSecond: 248.97066
+    sDegSecond: -28.215961
+    constellationName: Sco
+  - hDegFirst: 248.97066
+    sDegFirst: -28.215961
+    hDegSecond: 247.35194
+    sDegSecond: -26.431946
+    constellationName: Sco
+  - hDegFirst: 247.35194
+    sDegFirst: -26.431946
+    hDegSecond: 240.08339
+    sDegSecond: -22.62162
+    constellationName: Sco
+  - hDegFirst: 247.35194
+    sDegFirst: -26.431946
+    hDegSecond: 239.713
+    sDegSecond: -26.114042
+    constellationName: Sco
+  - hDegFirst: 247.35194
+    sDegFirst: -26.431946
+    hDegSecond: 241.35931
+    sDegSecond: -19.805393
+    constellationName: Sco
+  - hDegFirst: 281.79367
+    sDegFirst: -4.7478285
+    hDegSecond: 281.87073
+    sDegSecond: -5.705071
+    constellationName: Sct
+  - hDegFirst: 281.87073
+    sDegFirst: -5.705071
+    hDegSecond: 283.67966
+    sDegSecond: -15.603023
+    constellationName: Sct
+  - hDegFirst: 283.67966
+    sDegFirst: -15.603023
+    hDegSecond: 277.29938
+    sDegSecond: -14.565805
+    constellationName: Sct
+  - hDegFirst: 277.29938
+    sDegFirst: -14.565805
+    hDegSecond: 278.80182
+    sDegSecond: -8.243308
+    constellationName: Sct
+  - hDegFirst: 278.80182
+    sDegFirst: -8.243308
+    hDegSecond: 281.79367
+    sDegSecond: -4.7478285
+    constellationName: Sct
+  - hDegFirst: 237.40527
+    sDegFirst: -3.4301412
+    hDegSecond: 237.70372
+    sDegSecond: 4.4775796
+    constellationName: Ser
+  - hDegFirst: 237.70372
+    sDegFirst: 4.4775796
+    hDegSecond: 236.06665
+    sDegSecond: 6.42552
+    constellationName: Ser
+  - hDegFirst: 236.06665
+    sDegFirst: 6.42552
+    hDegSecond: 233.70079
+    sDegSecond: 10.538859
+    constellationName: Ser
+  - hDegFirst: 233.70079
+    sDegFirst: 10.538859
+    hDegSecond: 236.54672
+    sDegSecond: 15.4219265
+    constellationName: Ser
+  - hDegFirst: 236.54672
+    sDegFirst: 15.4219265
+    hDegSecond: 239.11247
+    sDegSecond: 15.664733
+    constellationName: Ser
+  - hDegFirst: 239.11247
+    sDegFirst: 15.664733
+    hDegSecond: 237.18504
+    sDegSecond: 18.141779
+    constellationName: Ser
+  - hDegFirst: 237.18504
+    sDegFirst: 18.141779
+    hDegSecond: 236.54672
+    sDegSecond: 15.4219265
+    constellationName: Ser
+  - hDegFirst: 284.05484
+    sDegFirst: 4.2035294
+    hDegSecond: 275.32883
+    sDegSecond: -2.897122
+    constellationName: Ser
+  - hDegFirst: 275.32883
+    sDegFirst: -2.897122
+    hDegSecond: 265.35382
+    sDegSecond: -12.875173
+    constellationName: Ser
+  - hDegFirst: 265.35382
+    sDegFirst: -12.875173
+    hDegSecond: 264.39676
+    sDegSecond: -15.398408
+    constellationName: Ser
+  - hDegFirst: 264.39676
+    sDegFirst: -15.398408
+    hDegSecond: 260.20682
+    sDegSecond: -12.846882
+    constellationName: Ser
+  - hDegFirst: 157.57292
+    sDegFirst: 0.63697195
+    hDegSecond: 151.98456
+    sDegSecond: 0.37162778
+    constellationName: Sex
+  - hDegFirst: 295.26224
+    sDegFirst: 17.476124
+    hDegSecond: 296.84692
+    sDegSecond: 18.53426
+    constellationName: Sge
+  - hDegFirst: 296.84692
+    sDegFirst: 18.53426
+    hDegSecond: 295.0241
+    sDegSecond: 18.013939
+    constellationName: Sge
+  - hDegFirst: 296.84692
+    sDegFirst: 18.53426
+    hDegSecond: 299.68912
+    sDegSecond: 19.492092
+    constellationName: Sge
+  - hDegFirst: 299.68912
+    sDegFirst: 19.492092
+    hDegSecond: 301.2895
+    sDegSecond: 19.990877
+    constellationName: Sge
+  - hDegFirst: 275.2484
+    sDegFirst: -29.82804
+    hDegSecond: 276.9928
+    sDegSecond: -25.421247
+    constellationName: Sgr
+  - hDegFirst: 274.4072
+    sDegFirst: -36.76128
+    hDegSecond: 276.04312
+    sDegSecond: -34.384315
+    constellationName: Sgr
+  - hDegFirst: 276.04312
+    sDegFirst: -34.384315
+    hDegSecond: 271.45218
+    sDegSecond: -30.42365
+    constellationName: Sgr
+  - hDegFirst: 271.45218
+    sDegFirst: -30.42365
+    hDegSecond: 266.8901
+    sDegSecond: -27.830763
+    constellationName: Sgr
+  - hDegFirst: 271.45218
+    sDegFirst: -30.42365
+    hDegSecond: 275.2484
+    sDegSecond: -29.82804
+    constellationName: Sgr
+  - hDegFirst: 275.2484
+    sDegFirst: -29.82804
+    hDegSecond: 276.04312
+    sDegSecond: -34.384315
+    constellationName: Sgr
+  - hDegFirst: 276.04312
+    sDegFirst: -34.384315
+    hDegSecond: 285.653
+    sDegSecond: -29.880114
+    constellationName: Sgr
+  - hDegFirst: 285.653
+    sDegFirst: -29.880114
+    hDegSecond: 281.41397
+    sDegSecond: -26.99078
+    constellationName: Sgr
+  - hDegFirst: 281.41397
+    sDegFirst: -26.99078
+    hDegSecond: 275.2484
+    sDegSecond: -29.82804
+    constellationName: Sgr
+  - hDegFirst: 281.41397
+    sDegFirst: -26.99078
+    hDegSecond: 276.9928
+    sDegSecond: -25.421247
+    constellationName: Sgr
+  - hDegFirst: 276.9928
+    sDegFirst: -25.421247
+    hDegSecond: 273.44086
+    sDegSecond: -21.05883
+    constellationName: Sgr
+  - hDegFirst: 285.653
+    sDegFirst: -29.880114
+    hDegSecond: 286.73517
+    sDegSecond: -27.669815
+    constellationName: Sgr
+  - hDegFirst: 286.73517
+    sDegFirst: -27.669815
+    hDegSecond: 283.8163
+    sDegSecond: -26.296595
+    constellationName: Sgr
+  - hDegFirst: 283.8163
+    sDegFirst: -26.296595
+    hDegSecond: 281.41397
+    sDegSecond: -26.99078
+    constellationName: Sgr
+  - hDegFirst: 283.8163
+    sDegFirst: -26.296595
+    hDegSecond: 284.4324
+    sDegSecond: -21.106625
+    constellationName: Sgr
+  - hDegFirst: 284.4324
+    sDegFirst: -21.106625
+    hDegSecond: 286.17056
+    sDegSecond: -21.741354
+    constellationName: Sgr
+  - hDegFirst: 286.17056
+    sDegFirst: -21.741354
+    hDegSecond: 289.4087
+    sDegSecond: -18.952883
+    constellationName: Sgr
+  - hDegFirst: 289.4087
+    sDegFirst: -18.952883
+    hDegSecond: 290.41824
+    sDegSecond: -17.847252
+    constellationName: Sgr
+  - hDegFirst: 286.73517
+    sDegFirst: -27.669815
+    hDegSecond: 294.00687
+    sDegSecond: -24.719017
+    constellationName: Sgr
+  - hDegFirst: 294.00687
+    sDegFirst: -24.719017
+    hDegSecond: 300.66443
+    sDegSecond: -27.709879
+    constellationName: Sgr
+  - hDegFirst: 300.66443
+    sDegFirst: -27.709879
+    hDegSecond: 299.93405
+    sDegSecond: -35.276245
+    constellationName: Sgr
+  - hDegFirst: 299.93405
+    sDegFirst: -35.276245
+    hDegSecond: 298.81534
+    sDegSecond: -41.868412
+    constellationName: Sgr
+  - hDegFirst: 298.81534
+    sDegFirst: -41.868412
+    hDegSecond: 290.97147
+    sDegSecond: -40.615646
+    constellationName: Sgr
+  - hDegFirst: 298.81534
+    sDegFirst: -41.868412
+    hDegSecond: 290.8044
+    sDegSecond: -44.79965
+    constellationName: Sgr
+  - hDegFirst: 81.57291
+    sDegFirst: 28.607874
+    hDegSecond: 70.561264
+    sDegSecond: 22.956976
+    constellationName: Tau
+  - hDegFirst: 70.561264
+    sDegFirst: 22.956976
+    hDegSecond: 67.15389
+    sDegSecond: 19.180521
+    constellationName: Tau
+  - hDegFirst: 68.98
+    sDegFirst: 16.509762
+    hDegSecond: 84.41119
+    sDegSecond: 21.142593
+    constellationName: Tau
+  - hDegFirst: 64.94806
+    sDegFirst: 15.6277
+    hDegSecond: 65.733444
+    sDegSecond: 17.542583
+    constellationName: Tau
+  - hDegFirst: 64.94806
+    sDegFirst: 15.6277
+    hDegSecond: 60.170086
+    sDegSecond: 12.4903755
+    constellationName: Tau
+  - hDegFirst: 60.170086
+    sDegFirst: 12.4903755
+    hDegSecond: 51.20349
+    sDegSecond: 9.029065
+    constellationName: Tau
+  - hDegFirst: 68.98
+    sDegFirst: 16.509762
+    hDegSecond: 67.15389
+    sDegSecond: 19.180521
+    constellationName: Tau
+  - hDegFirst: 68.98
+    sDegFirst: 16.509762
+    hDegSecond: 67.16531
+    sDegSecond: 15.870947
+    constellationName: Tau
+  - hDegFirst: 67.16531
+    sDegFirst: 15.870947
+    hDegSecond: 64.94806
+    sDegSecond: 15.6277
+    constellationName: Tau
+  - hDegFirst: 67.15389
+    sDegFirst: 19.180521
+    hDegSecond: 66.372154
+    sDegSecond: 17.92799
+    constellationName: Tau
+  - hDegFirst: 66.372154
+    sDegFirst: 17.92799
+    hDegSecond: 65.733444
+    sDegSecond: 17.542583
+    constellationName: Tau
+  - hDegFirst: 65.733444
+    sDegFirst: 17.542583
+    hDegSecond: 57.290546
+    sDegSecond: 24.053524
+    constellationName: Tau
+  - hDegFirst: 277.20724
+    sDegFirst: -49.07003
+    hDegSecond: 276.74347
+    sDegSecond: -45.96833
+    constellationName: Tel
+  - hDegFirst: 252.1661
+    sDegFirst: -69.02763
+    hDegSecond: 229.72787
+    sDegSecond: -68.67947
+    constellationName: TrA
+  - hDegFirst: 229.72787
+    sDegFirst: -68.67947
+    hDegSecond: 238.7867
+    sDegSecond: -63.42975
+    constellationName: TrA
+  - hDegFirst: 238.7867
+    sDegFirst: -63.42975
+    hDegSecond: 252.1661
+    sDegSecond: -69.02763
+    constellationName: TrA
+  - hDegFirst: 33.984562
+    sDegFirst: 33.358974
+    hDegSecond: 32.3855
+    sDegSecond: 34.987392
+    constellationName: Tri
+  - hDegFirst: 32.3855
+    sDegFirst: 34.987392
+    hDegSecond: 28.270416
+    sDegSecond: 29.579397
+    constellationName: Tri
+  - hDegFirst: 28.270416
+    sDegFirst: 29.579397
+    hDegSecond: 33.984562
+    sDegSecond: 33.358974
+    constellationName: Tri
+  - hDegFirst: 334.62573
+    sDegFirst: -60.259495
+    hDegSecond: 349.35754
+    sDegSecond: -58.235928
+    constellationName: Tuc
+  - hDegFirst: 349.35754
+    sDegFirst: -58.235928
+    hDegSecond: 5.007976
+    sDegSecond: -64.877625
+    constellationName: Tuc
+  - hDegFirst: 349.35754
+    sDegFirst: -58.235928
+    hDegSecond: 7.88567
+    sDegSecond: -62.958084
+    constellationName: Tuc
+  - hDegFirst: 206.8856
+    sDegFirst: 49.3133
+    hDegSecond: 200.98091
+    sDegSecond: 54.925415
+    constellationName: UMa
+  - hDegFirst: 200.98091
+    sDegFirst: 54.925415
+    hDegSecond: 193.5068
+    sDegSecond: 55.959843
+    constellationName: UMa
+  - hDegFirst: 193.5068
+    sDegFirst: 55.959843
+    hDegSecond: 183.85603
+    sDegSecond: 57.032597
+    constellationName: UMa
+  - hDegFirst: 183.85603
+    sDegFirst: 57.032597
+    hDegSecond: 165.93265
+    sDegSecond: 61.751118
+    constellationName: UMa
+  - hDegFirst: 165.93265
+    sDegFirst: 61.751118
+    hDegSecond: 165.45996
+    sDegSecond: 56.382343
+    constellationName: UMa
+  - hDegFirst: 165.45996
+    sDegFirst: 56.382343
+    hDegSecond: 178.45726
+    sDegSecond: 53.694733
+    constellationName: UMa
+  - hDegFirst: 178.45726
+    sDegFirst: 53.694733
+    hDegSecond: 183.85603
+    sDegSecond: 57.032597
+    constellationName: UMa
+  - hDegFirst: 178.45726
+    sDegFirst: 53.694733
+    hDegSecond: 176.51306
+    sDegSecond: 47.77934
+    constellationName: UMa
+  - hDegFirst: 176.51306
+    sDegFirst: 47.77934
+    hDegSecond: 167.41608
+    sDegSecond: 44.498554
+    constellationName: UMa
+  - hDegFirst: 167.41608
+    sDegFirst: 44.498554
+    hDegSecond: 154.27469
+    sDegSecond: 42.914467
+    constellationName: UMa
+  - hDegFirst: 167.41608
+    sDegFirst: 44.498554
+    hDegSecond: 155.58252
+    sDegSecond: 41.499435
+    constellationName: UMa
+  - hDegFirst: 165.45996
+    sDegFirst: 56.382343
+    hDegSecond: 148.0265
+    sDegSecond: 54.064285
+    constellationName: UMa
+  - hDegFirst: 148.0265
+    sDegFirst: 54.064285
+    hDegSecond: 143.21802
+    sDegSecond: 51.6786
+    constellationName: UMa
+  - hDegFirst: 143.21802
+    sDegFirst: 51.6786
+    hDegSecond: 135.9065
+    sDegSecond: 47.15666
+    constellationName: UMa
+  - hDegFirst: 143.21802
+    sDegFirst: 51.6786
+    hDegSecond: 134.8035
+    sDegSecond: 48.04235
+    constellationName: UMa
+  - hDegFirst: 148.0265
+    sDegFirst: 54.064285
+    hDegSecond: 147.74872
+    sDegSecond: 59.039104
+    constellationName: UMa
+  - hDegFirst: 147.74872
+    sDegFirst: 59.039104
+    hDegSecond: 127.566795
+    sDegSecond: 60.71843
+    constellationName: UMa
+  - hDegFirst: 127.566795
+    sDegFirst: 60.71843
+    hDegSecond: 142.88155
+    sDegSecond: 63.061794
+    constellationName: UMa
+  - hDegFirst: 142.88155
+    sDegFirst: 63.061794
+    hDegSecond: 165.93265
+    sDegSecond: 61.751118
+    constellationName: UMa
+  - hDegFirst: 37.946148
+    sDegFirst: 89.26414
+    hDegSecond: 263.05374
+    sDegSecond: 86.58633
+    constellationName: UMi
+  - hDegFirst: 263.05374
+    sDegFirst: 86.58633
+    hDegSecond: 251.49234
+    sDegSecond: 82.037254
+    constellationName: UMi
+  - hDegFirst: 251.49234
+    sDegFirst: 82.037254
+    hDegSecond: 236.01443
+    sDegSecond: 77.7945
+    constellationName: UMi
+  - hDegFirst: 236.01443
+    sDegFirst: 77.7945
+    hDegSecond: 244.37709
+    sDegSecond: 75.75471
+    constellationName: UMi
+  - hDegFirst: 244.37709
+    sDegFirst: 75.75471
+    hDegSecond: 230.18228
+    sDegSecond: 71.83398
+    constellationName: UMi
+  - hDegFirst: 230.18228
+    sDegFirst: 71.83398
+    hDegSecond: 222.67665
+    sDegSecond: 74.15548
+    constellationName: UMi
+  - hDegFirst: 222.67665
+    sDegFirst: 74.15548
+    hDegSecond: 236.01443
+    sDegSecond: 77.7945
+    constellationName: UMi
+  - hDegFirst: 122.38315
+    sDegFirst: -47.336613
+    hDegSecond: 130.07336
+    sDegSecond: -52.921974
+    constellationName: Vel
+  - hDegFirst: 130.07336
+    sDegFirst: -52.921974
+    hDegSecond: 131.17583
+    sDegSecond: -54.70857
+    constellationName: Vel
+  - hDegFirst: 131.17583
+    sDegFirst: -54.70857
+    hDegSecond: 140.52846
+    sDegSecond: -55.010696
+    constellationName: Vel
+  - hDegFirst: 140.52846
+    sDegFirst: -55.010696
+    hDegSecond: 149.21565
+    sDegSecond: -54.5678
+    constellationName: Vel
+  - hDegFirst: 149.21565
+    sDegFirst: -54.5678
+    hDegSecond: 161.69217
+    sDegSecond: -49.420124
+    constellationName: Vel
+  - hDegFirst: 161.69217
+    sDegFirst: -49.420124
+    hDegSecond: 159.32607
+    sDegSecond: -48.225616
+    constellationName: Vel
+  - hDegFirst: 159.32607
+    sDegFirst: -48.225616
+    hDegSecond: 153.68448
+    sDegSecond: -42.122063
+    constellationName: Vel
+  - hDegFirst: 153.68448
+    sDegFirst: -42.122063
+    hDegSecond: 142.67548
+    sDegSecond: -40.46689
+    constellationName: Vel
+  - hDegFirst: 142.67548
+    sDegFirst: -40.46689
+    hDegSecond: 136.99907
+    sDegSecond: -43.432625
+    constellationName: Vel
+  - hDegFirst: 136.99907
+    sDegFirst: -43.432625
+    hDegSecond: 122.38315
+    sDegSecond: -47.336613
+    constellationName: Vel
+  - hDegFirst: 176.46487
+    sDegFirst: 6.529814
+    hDegSecond: 184.66791
+    sDegSecond: 0.7871447
+    constellationName: Vir
+  - hDegFirst: 184.66791
+    sDegFirst: 0.7871447
+    hDegSecond: 190.41667
+    sDegSecond: -1.4495223
+    constellationName: Vir
+  - hDegFirst: 190.41667
+    sDegFirst: -1.4495223
+    hDegSecond: 201.29836
+    sDegSecond: -11.161245
+    constellationName: Vir
+  - hDegFirst: 201.29836
+    sDegFirst: -11.161245
+    hDegSecond: 213.22392
+    sDegSecond: -10.274044
+    constellationName: Vir
+  - hDegFirst: 213.22392
+    sDegFirst: -10.274044
+    hDegSecond: 214.0037
+    sDegSecond: -5.999526
+    constellationName: Vir
+  - hDegFirst: 214.0037
+    sDegFirst: -5.999526
+    hDegSecond: 220.76485
+    sDegSecond: -5.657429
+    constellationName: Vir
+  - hDegFirst: 201.29836
+    sDegFirst: -11.161245
+    hDegSecond: 203.67398
+    sDegSecond: 0.5959383
+    constellationName: Vir
+  - hDegFirst: 203.67398
+    sDegFirst: 0.5959383
+    hDegSecond: 210.41159
+    sDegSecond: 1.5445833
+    constellationName: Vir
+  - hDegFirst: 210.41159
+    sDegFirst: 1.5445833
+    hDegSecond: 221.56247
+    sDegSecond: 1.8929384
+    constellationName: Vir
+  - hDegFirst: 203.67398
+    sDegFirst: 0.5959383
+    hDegSecond: 193.90201
+    sDegSecond: 3.3975985
+    constellationName: Vir
+  - hDegFirst: 193.90201
+    sDegFirst: 3.3975985
+    hDegSecond: 195.54483
+    sDegSecond: 10.959102
+    constellationName: Vir
+  - hDegFirst: 193.90201
+    sDegFirst: 3.3975985
+    hDegSecond: 190.41667
+    sDegSecond: -1.4495223
+    constellationName: Vir
+  - hDegFirst: 115.45499
+    sDegFirst: -72.60613
+    hDegSecond: 107.18677
+    sDegSecond: -70.49919
+    constellationName: Vol
+  - hDegFirst: 107.18677
+    sDegFirst: -70.49919
+    hDegSecond: 121.98267
+    sDegSecond: -68.617134
+    constellationName: Vol
+  - hDegFirst: 121.98267
+    sDegFirst: -68.617134
+    hDegSecond: 115.45499
+    sDegSecond: -72.60613
+    constellationName: Vol
+  - hDegFirst: 121.98267
+    sDegFirst: -68.617134
+    hDegSecond: 109.20763
+    sDegSecond: -67.95718
+    constellationName: Vol
+  - hDegFirst: 121.98267
+    sDegFirst: -68.617134
+    hDegSecond: 126.43436
+    sDegSecond: -66.13652
+    constellationName: Vol
+  - hDegFirst: 126.43436
+    sDegFirst: -66.13652
+    hDegSecond: 135.61166
+    sDegSecond: -66.39584
+    constellationName: Vol
+  - hDegFirst: 135.61166
+    sDegFirst: -66.39584
+    hDegSecond: 121.98267
+    sDegSecond: -68.617134
+    constellationName: Vol
+  - hDegFirst: 292.17673
+    sDegFirst: 24.665165
+    hDegSecond: 300.27505
+    sDegSecond: 27.753565
+    constellationName: Vul

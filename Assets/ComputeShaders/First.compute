@@ -3,29 +3,122 @@
 // Particle's data
 struct Particle {
 	float3 position;
-	float3 velocity;
-	float life;
+	float hDeg;
+	float sDeg;
+	float4 color;
+	float4 colorBuffer;
+	float size;
 };
 
 // Particle's data, shared with the shader
 RWStructuredBuffer<Particle> particleBuffer;
 
-float nrand(float2 uv) {
-	return frac(sin(dot(uv, float2(12.9898, 78.233))) * 43758.5453);
+float mulAlpha;
+float4 rot;
+
+float4 q;
+
+float4 quaternion_mul(float4 f, float4 s) {
+	q.x = (f.w * s.x) + (f.x * s.w) + (f.y * s.z) + (-f.z * s.y);
+	q.y = (f.w * s.y) + (f.y * s.w) + (f.z * s.x) + (-f.x * s.z);
+	q.z = (f.w * s.z) + (f.z * s.w) + (f.x * s.y) + (-f.y * s.x);
+	q.w = (f.w * s.w) + (-f.x * s.x) + (-f.y * s.y) + (-f.z * s.z);
+	return q;
 }
 
-uint rng_state;
+float3 v;
 
+float num1v;
+float num2v;
+float num3v;
+float num4v;
+float num5v;
+float num6v;
+float num7v;
+float num8v;
+float num9v;
+float num10v;
+float num11v;
+float num12v;
 
-uint rand_xorshift() {
-	// Xorshift algorithm from George Marsaglia's paper
-	rng_state ^= (rng_state << 13);
-	rng_state ^= (rng_state >> 17);
-	rng_state ^= (rng_state << 5);
-	return rng_state;
+float3 vector3_mul(float4 r, float3 p) {
+	num1v = r.x * 2.0f;
+	num2v = r.y * 2.0f;
+	num3v = r.z * 2.0f;
+	num4v = r.x * num1v;
+	num5v = r.y * num2v;
+	num6v = r.z * num3v;
+	num7v = r.x * num2v;
+	num8v = r.x * num3v;
+	num9v = r.y * num3v;
+	num10v = r.w * num1v;
+	num11v = r.w * num2v;
+	num12v = r.w * num3v;
+	
+	v.x = ((1.0 - (num5v + num6v)) * p.x + (num7v - num12v) * p.y + (num8v + num11v) * p.z);
+	v.y = ((num7v + num12v) * p.x + (1.0 - (num4v + num6v)) * p.y + (num9v - num10v) * p.z);
+	v.z = ((num8v - num11v) * p.x + (num9v + num10v) * p.y + (1.0 - (num4v + num5v)) * p.z);
+	return v;
 }
+
+float vector3_magnitude(float3 m_v) {
+	return sqrt(m_v.x * m_v.x + m_v.y * m_v.y + m_v.z * m_v.z);
+}
+
+float3 vector3_normlize(float3 n_v)
+{
+	if (vector3_magnitude(n_v) > 9.99999974737875)
+		return n_v / vector3_magnitude(n_v);
+	return float3(0.0f, 0.0f, 0.0f);
+}
+
+float quaternion_mag(float4 m_q) {
+	return sqrt(m_q.x * m_q.x + m_q.y * m_q.y + m_q.z * m_q.z + m_q.w * m_q.w);
+}
+
+float4 quaternion_normlize(float4 n_q) {
+	
+	
+	n_q.x = n_q.x * 1.0f / quaternion_mag(n_q);
+	n_q.y = n_q.y * 1.0f / quaternion_mag(n_q);
+	n_q.z = n_q.z * 1.0f / quaternion_mag(n_q);
+	n_q.w = n_q.w * 1.0f / quaternion_mag(n_q);
+
+	return n_q;
+}
+
+float radians;
+float degToRad;
+float4 result;
+
+float4 angleAxis(float degress, float3 axis) {
+	degToRad = 3.14f / 180.0f;
+
+	if(vector3_magnitude(axis) == 0.0f) 
+		return float4(0.0f, 0.0f, 0.0f, 1.0f);
+
+	result = float4(0.0f, 0.0f, 0.0f, 1.0f);
+	radians = degress * degToRad;
+	radians = radians * 0.5f;
+
+	axis = axis * sin(radians);
+	result.x = axis.x;
+	result.y = axis.y;
+	result.z = axis.z;
+	result.w = cos(radians);
+
+	return quaternion_normlize(result);
+}
+
+float4 frotL;
+float4 frotR;
 
 [numthreads(256, 1, 1)]
 void CSParticle(uint3 id : SV_DispatchThreadID) {
 
+	frotL = angleAxis(particleBuffer[id.x].hDeg + rot.y, float3(0.0f, 1.0f, 0.0f));
+	frotR = angleAxis(particleBuffer[id.x].sDeg + rot.x, float3(1.0f, 0.0f, 0.0f));
+
+	particleBuffer[id.x].position = vector3_mul(quaternion_mul(frotL, frotR), float3(0.0f, 0.0f, 1.0f) * 10.0f);
+	particleBuffer[id.x].color.a = particleBuffer[id.x].colorBuffer.a + mulAlpha;
 }
